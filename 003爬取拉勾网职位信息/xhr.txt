@@ -1,0 +1,72 @@
+https://www.lagou.com/jobs/positionAjax.json?px=default&gx=%E5%85%A8%E8%81%8C&needAddtionalResult=false&isSchoolJob=1
+https://www.lagou.com/jobs/positionAjax.json?px=default&gx=%E5%85%A8%E8%81%8C&needAddtionalResult=false&isSchoolJob=1
+
+
+HTTP/1.1 200 OK
+Server: nfs/1.0.0.2
+Date: Thu, 28 Mar 2019 08:58:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+REQUEST_ID: 34f735f2-5625-4f12-bb63-4919cabb62af
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Language: zh-CN
+Cache-Control: no-cache
+
+
+POST /jobs/positionAjax.json?xl=%E6%9C%AC%E7%A7%91&px=default&gx=%E5%85%A8%E8%81%8C&needAddtionalResult=false&isSchoolJob=1 HTTP/1.1
+
+'Host': 'www.lagou.com',
+'Connection': 'keep-alive',
+'Content-Length': '26',
+'Origin': 'https://www.lagou.com',
+'X-Anit-Forge-Code': '0',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+'Accept': 'application/json, text/javascript, */*; q=0.01',
+'X-Requested-With': 'XMLHttpRequest',
+'X-Anit-Forge-Token': 'None',
+'Referer': 'https://www.lagou.com/jobs/list_python?px=default&gx=%E5%85%A8%E8%81%8C&gj=&xl=%E6%9C%AC%E7%A7%91&isSchoolJob=1&city=%E5%85%A8%E5%9B%BD',
+'Accept-Encoding': 'gzip, deflate, br',
+'Accept-Language': 'zh-CN,zh;q=0.9',
+'Cookie': 'WEBTJ-ID=20190328100105-169c2078019103-03287e499e7cc-7a1437-1327104-169c207801a0; _ga=GA1.2.1664461408.1553738469; _gid=GA1.2.1954202981.1553738469; user_trace_token=20190328100111-5bf04f0f-50fd-11e9-b40b-525400f775ce; LGUID=20190328100111-5bf053d7-50fd-11e9-b40b-525400f775ce; JSESSIONID=ABAAABAAADEAAFI9211681F55FF42AB9EE85C8EC6C94593; index_location_city=%E5%85%A8%E5%9B%BD; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1553738468,1553738542; TG-TRACK-CODE=search_code; LGSID=20190328161443-8ac2ffa1-5131-11e9-b773-525400f775ce; SEARCH_ID=053774aed1024dad976f9356138dd175; _gat=1; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1553763521; LGRID=20190328165838-ad7b8820-5137-11e9-b82a-525400f775ce',
+
+
+'xl': '本科',
+'px': 'default',
+'gx': '全职',
+'needAddtionalResult': 'false',
+'isSchoolJob': '1'
+
+HTTP/1.1 200 OK
+Server: nfs/1.0.0.2
+Date: Thu, 28 Mar 2019 11:04:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+REQUEST_ID: cd43cb79-0c47-4c81-8e4a-a079b7fd9cb3
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Language: zh-CN
+Cache-Control: no-cache
+
+
+POST /jobs/positionAjax.json?xl=%E6%9C%AC%E7%A7%91&px=default&gx=%E5%85%A8%E8%81%8C&needAddtionalResult=false&isSchoolJob=1 HTTP/1.1
+
+'Host': 'www.lagou.com',
+'Connection': 'keep-alive',
+'Content-Length': '26',
+'Origin': 'https://www.lagou.com',
+'X-Anit-Forge-Code': '0',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+'Accept': 'application/json, text/javascript, */*; q=0.01',
+'X-Requested-With': 'XMLHttpRequest',
+'X-Anit-Forge-Token': 'None',
+'Referer': 'https://www.lagou.com/jobs/list_python?px=default&gx=%E5%85%A8%E8%81%8C&gj=&xl=%E6%9C%AC%E7%A7%91&isSchoolJob=1&city=%E5%85%A8%E5%9B%BD',
+'Accept-Encoding': 'gzip, deflate, br',
+'Accept-Language': 'zh-CN,zh;q=0.9',
+'Cookie': 'WEBTJ-ID=20190328100105-169c2078019103-03287e499e7cc-7a1437-1327104-169c207801a0; _ga=GA1.2.1664461408.1553738469; _gid=GA1.2.1954202981.1553738469; user_trace_token=20190328100111-5bf04f0f-50fd-11e9-b40b-525400f775ce; LGUID=20190328100111-5bf053d7-50fd-11e9-b40b-525400f775ce; JSESSIONID=ABAAABAAADEAAFI9211681F55FF42AB9EE85C8EC6C94593; index_location_city=%E5%85%A8%E5%9B%BD; _gat=1; LGSID=20190328190110-cb4841d5-5148-11e9-b82e-5254005c3644; PRE_UTM=; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DKbms6xfMqIUv7AMjnRPDL-xkTFJ6snHQGL9DF5fQumm%26wd%3D%26eqid%3De29fa16f0000d8bc000000035c9ca96a; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; TG-TRACK-CODE=index_search; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1553738542,1553770867,1553770873,1553771063; SEARCH_ID=395c87ce7e83497d853243d3e7be657c; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1553771077; LGRID=20190328190435-456dea33-5149-11e9-b82e-5254005c3644'

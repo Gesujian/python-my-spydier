@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-ZA-Response-Id" content="fb00ccf19aaf7683ffdfdad242f2a457">
+    <meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,live_store:ls_a1_b2_c2_f2,nweb_search:nweb_search_heifetz,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,search_hybrid_tabs:pin-3#album-7,android_pass_through_push:all,nweb_search_suggest:default,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,is_new_noti_panel:no">
+    <title>发现 - 知乎</title>
+    <meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://explore">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/explore">
+    <meta id="znonce" name="znonce" content="ffe38f2dfe14411faac90fadce090d59">
+    <link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+    <link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+    <link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+    <meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+    <!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+    <script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+  </head>
+  <body class="zhi page-explore">
+    <div role="navigation" class="zu-top" data-za-module="TopNavBar">
+      <div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+        <a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+        <ul class="topnav-noauth clearfix">
+          <li>
+            <a href="javascript:;" class="js-signup-noauth">
+              <i class="zg-icon zg-icon-dd-home"></i>
+              注册知乎</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="js-signin-noauth">登录</a>
+          </li>
+        </ul>
+        <button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+        <div role="search" id="zh-top-search" class="zu-top-search">
+          <form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+            <input type="hidden" name="type" value="content"><label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…"><button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+          </form>
+        </div>
+        <div id="zg-top-nav" class="zu-top-nav">
+          <ul class="zu-top-nav-ul zg-clear">
+            <li class="zu-top-nav-li " id="zh-top-nav-home">
+              <a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+            </li>
+            <li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+              <a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+            </li>
+            <li class="zu-top-nav-li current" id="zh-top-nav-explore">
+              <a class="zu-top-nav-link" href="/explore">发现</a>
+            </li>
+          </ul>
+          <div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+            <div class="zu-top-nav-live-inner zg-r5px">
+              <div class="zu-top-live-icon">
+                &nbsp;
+              </div>
+              <div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+                <div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+                  <button class="zm-noti7-popup-tab-item message"><span class="icon">消息</span></button><button class="zm-noti7-popup-tab-item user"><span class="icon">用户</span></button><button class="zm-noti7-popup-tab-item thanks"><span class="icon">赞同和感谢</span></button>
+                </div>
+              </div>
+              <div class="zm-noti7-frame-border top"></div>
+              <div class="zm-noti7-frame">
+                <div class="zm-noti7-content message">
+                  <div class="zm-noti7-content-inner">
+                    <div class="zm-noti7-content-body">
+                      <div class="zm-noti7-popup-loading">
+                        <span class="noti-spinner-loading"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="zm-noti7-content user" style="display:none;">
+                  <div class="zm-noti7-content-inner">
+                    <div class="zm-noti7-content-body">
+                      <div class="zm-noti7-popup-loading">
+                        <span class="noti-spinner-loading"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="zm-noti7-content thanks" style="display:none;">
+                  <div class="zm-noti7-content-inner">
+                    <div class="zm-noti7-content-body">
+                      <div class="zm-noti7-popup-loading">
+                        <span class="noti-spinner-loading"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="zm-noti7-frame-border bottom"></div>
+              <div class="zm-noti7-popup-footer">
+                <a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+                <a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置">
+                  <i class="zg-icon zg-icon-settings"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zu-global-notify" id="zh-global-message" style="display:none">
+      <div class="zg-wrap">
+        <div class="zu-global-nitify-inner">
+          <a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a><span class="zu-global-notify-icon"></span><span class="zu-global-notify-msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="zg-wrap zu-main clearfix " role="main">
+      <div class="zu-main-content">
+        <div class="zu-main-content-inner">
+          <div id="zh-recommend">
+            <div id="zh-recommend-title" class="page-title">
+              <i class="zg-icon zg-icon-feedlist"></i>
+              <span>编辑推荐</span><a href="/explore/recommendations" class="zg-link-gray zg-right" data-za-c="explore" data-za-a="visit_explore_recommendations" data-za-l="editor_recommendations_more"><span>更多推荐 &raquo;</span></a>
+            </div>
+            <div id="zh-recommend-list">
+              <div class="top-recommend-feed feed-item">
+                <h2>
+                  <a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/59924374" data-za-element-name="Title">#GDC19 谷歌云游戏延迟分析—Controller to Display Latency</a>
+                </h2>
+                <div class="avatar">
+                  <span class="zm-item-link-avatar"><img title="知乎用户" class="zm-item-img-avatar" src="https://pic4.zhimg.com/aadd7b895_m.jpg"/></span>
+                </div>
+                <div class="feed-main">
+                  <div class="author-info">
+                    <span class="author-link-line">
+                      <a class="name author-link" href="/people/kilia-xixi" data-hovercard="p$t$kilia-xixi">clark</a>
+                    </span><span class="bio">网易游戏码农 / 引擎 / TA</span>
+                  </div>
+                  <div class="post-content">
+                    <textarea hidden class="content">
+                      &lt;p&gt;先上结论：粗略估算Google Stadia的Controller to Display Latency大概在&lt;b&gt;200ms&lt;/b&gt;左右。&lt;/p&gt;&lt;p&gt;2019-3-22更新：更精确的测算Google Stadia的Controller to Display Latency在&lt;b&gt;200ms&lt;/b&gt;左右，实验误差在208.3±16.7ms内。&lt;/p&gt;&lt;h2&gt;&lt;b&gt;A Black Box Method&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;14年在做《天谕》引擎的时候，我们遇到了FPS不错，但是“手感”很差的问题。主观测试后，感觉很有可能是输入到画面的延迟（Controller to Display Latency）太高了。但是，怎么来更加客观的分析这个延迟呢？&lt;/p&gt;&lt;p&gt;记得那是一个周末，在公司绞尽脑汁，总不能去买一个高速摄像机来分析吧？当时确实还taobao搜索了一下，印象中都没数清楚后面的0……回想起来可能要几十万吧 〒▽〒，鸟叔肯定不会批的 ╮(╯﹏╰）╭&lt;/p&gt;&lt;p&gt;正绝望中，突然灵机一动，苹果不是刚发布了slow motion功能吗？立马在周末人烟稀少的办公区里一个一个的找手机看，居然真的被我找到了一台支持slow motion的iphone！&lt;/p&gt;&lt;p&gt;打开slow motion，录制了一个最简单的测试：手动控制鼠标左右往复移动镜头，同时拍摄手和显示器屏幕，希望能录下来鼠标和屏幕移动之间的不同步。最终结果比我想象的好的多，不仅清楚的数出了镜头和鼠标之间的延迟帧数，还人生第一次看到了显示器的刷新，真的是从上往下一行一行（实际看到的是n行一起更新）的刷新的！&lt;/p&gt;&lt;p&gt;数出了镜头和鼠标之间的延迟帧数n，又已知拍摄的slow motion的FPS，1000*n/FPS就是延迟的毫秒数。找到了量化延迟的方法后，通过各种hack把driver的三重缓冲干掉（当时还是DX9时代），又修了几个jitter的bug后，迅速就解决了问题。&lt;/p&gt;&lt;p&gt;当时的视频早已不知所踪了，今天，我来用同样的方法测试一下Google Stadia的延迟到底有多少！&lt;/p&gt;&lt;hr&gt;&lt;p&gt;刚好在会场遇到了浙大CAD的图形学大牛王锐教授，厚着脸皮让他给我录了一段1分钟的240 FPS slow motionヾ(◍°∇°◍)ﾉﾞ&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;http://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1092067838126284800&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;截取最后10秒示意&quot; data-poster=&quot;https://pic1.zhimg.com/80/v2-846aaeca9d7280babe1e52de8342188c_b.jpg&quot; data-lens-id=&quot;1092067838126284800&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic1.zhimg.com/80/v2-846aaeca9d7280babe1e52de8342188c_b.jpg&quot;&gt;              &lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;截取最后10秒示意&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1092067838126284800&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;            &lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;回到酒店后，打开PotPlayer，继续开始一帧一帧数数~(ﾉﾟ∀ﾟ)ﾉ ，其中一次移动的数据如下：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;手柄从最左开始向右摇杆的第一帧：#150&lt;/li&gt;&lt;li&gt;手柄摇到最右停住的第一帧：#179&lt;/li&gt;&lt;li&gt;画面开始向右移动的第一帧：#219&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;手柄和鼠标有一个很大的区别，摇杆的行程让我没法精确的确定左右摇的精确中点，那就估计一下中点为#165帧，把min/median/max都算一下吧&lt;/p&gt;&lt;ul&gt;&lt;li&gt;min：219 - 179 = 40 frames = 167ms&lt;/li&gt;&lt;li&gt;median：219 - 165 = 54 frames = 225ms&lt;/li&gt;&lt;li&gt;max：219 - 150 = 69 frames = 288ms&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;所以，可以粗略估算Google Stadia的Controller to Display Latency大概在&lt;b&gt;200ms&lt;/b&gt;左右。这个值还是相当高的，射击游戏肯定是不行的o(╥﹏╥)o，很是失望~&lt;/p&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt;更新测试方案，重测一遍&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;感谢战神大牛 &lt;a class=&quot;member_mention&quot; href=&quot;http://www.zhihu.com/people/ee88f52c4b5322b092ec148c57c07837&quot; data-hash=&quot;ee88f52c4b5322b092ec148c57c07837&quot; data-hovercard=&quot;p$b$ee88f52c4b5322b092ec148c57c07837&quot;&gt;@gougou槐宏文&lt;/a&gt; 建议换一种更加精确的方法来测试，减小误差：&lt;/p&gt;&lt;blockquote&gt;谢谢这个文章，但是我有一个小疑问，还需要其他方面的测试来测量，因为输入到摄像机的转动，很有可能出现gameplay code的damping，也就是说输入检测到了但是一开始故意移动摄像机不这么灵敏，这种就是防止摄像机太灵敏，更值得测试的是play control，因为这是玩家操作的，基本不想出现延迟，比如推左摇杆玩家什么时候动，按x键玩家什么时候攻击，如果这些延迟还是200ms，那基本没办法玩&lt;/blockquote&gt;&lt;p&gt;相机平滑+摇杆deadzone等确实有太多的不确定因素了，需要排除掉。按照上述思路重新测试了一下。&lt;/p&gt;&lt;p&gt;视频：&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;http://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1092477310732759040&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;完整的动作测试视频&quot; data-poster=&quot;https://pic3.zhimg.com/v2-fb095dc9d779e524f30baf2eb9d3637a.jpg&quot; data-lens-id=&quot;1092477310732759040&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic3.zhimg.com/v2-fb095dc9d779e524f30baf2eb9d3637a.jpg&quot;&gt;              &lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;完整的动作测试视频&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1092477310732759040&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;            &lt;p&gt;感谢雷火技术中心总监小军路过帮我录像——每次都拉大牛来录，提升逼格 (=´ω｀=)&lt;/p&gt;&lt;p&gt;视频中slow motion部分所有的按键-&amp;gt;动作的帧数记录如下：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;#629 -&amp;gt; #679 = 50 frames&lt;/li&gt;&lt;li&gt;#1202 -&amp;gt; #1252 = 50 frames&lt;/li&gt;&lt;li&gt;#1748 -&amp;gt; #1796 = 48 frames&lt;/li&gt;&lt;li&gt;#2286 -&amp;gt; #2332 = 46 frames&lt;/li&gt;&lt;li&gt;#2838 -&amp;gt; #2892 = 54 frames&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;帧数区间是（50±4）帧，平均延迟是49.6帧。在240fps的slow motion下就是206.7ms，误差区间在208.3±16.7ms之内。&lt;/p&gt;&lt;p&gt;这个结果与之前粗略估算的值误差不大，原有的结论仍有有效：&lt;/p&gt;&lt;p&gt;更精确的测算Google Stadia的Controller to Display Latency在&lt;b&gt;200ms&lt;/b&gt;左右，实验误差在208.3±16.7ms内。&lt;/p&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt;《Controller to Display Latency》&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;为啥第一段起名叫做&lt;b&gt;A Black Box Method&lt;/b&gt;？因为，今天有一个很棒的讲座：&lt;/p&gt;&lt;figure data-size=&quot;small&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-90053d0eda309151cac032657a840ecf_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2174&quot; data-rawheight=&quot;3864&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2174&quot; data-original=&quot;https://pic4.zhimg.com/v2-90053d0eda309151cac032657a840ecf_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;他里面对延迟的分析非常非常的细致，回答了很多之前我一知半解的模糊概念。我上面用的这种傻大粗的方法，在他的演讲中，就叫做：&lt;b&gt;Black Box Method&lt;/b&gt;。&lt;/p&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-4ca16ef1161d19b8c3c5e2db4d15d0b8_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2570&quot; data-rawheight=&quot;1442&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2570&quot; data-original=&quot;https://pic1.zhimg.com/v2-4ca16ef1161d19b8c3c5e2db4d15d0b8_r.jpg&quot;&gt;&lt;figcaption&gt;黑盒&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;Black Box方法完全不管内部细节，直接测量，可以用来分析延迟。但是会导致估计不够细。估计不够细就无法精确预测Throttle从而降低渲染Workload和VSync上的延迟。&lt;/p&gt;&lt;p&gt;这个Talk里面我个人觉得很有意思的几个点：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;土豪工作室自己搞了一套闭环检测输入延迟的硬件：&lt;/li&gt;&lt;/ul&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-97118275163f66d825db214543305cf4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2550&quot; data-rawheight=&quot;1433&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2550&quot; data-original=&quot;https://pic1.zhimg.com/v2-97118275163f66d825db214543305cf4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;把VSync解释的非常非常清楚&lt;/li&gt;&lt;/ul&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-59b43dbc80f4e181ad14a3fd08608773_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2579&quot; data-rawheight=&quot;1451&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2579&quot; data-original=&quot;https://pic4.zhimg.com/v2-59b43dbc80f4e181ad14a3fd08608773_r.jpg&quot;&gt;&lt;figcaption&gt;显示器的扫描和刷新&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-2ad62b14ece7578abce13819d5df9baf_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2606&quot; data-rawheight=&quot;1456&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2606&quot; data-original=&quot;https://pic4.zhimg.com/v2-2ad62b14ece7578abce13819d5df9baf_r.jpg&quot;&gt;&lt;figcaption&gt;关闭VSync导致画面撕裂&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-1c66337ba14267788c0671408f859eb2_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2563&quot; data-rawheight=&quot;1439&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2563&quot; data-original=&quot;https://pic3.zhimg.com/v2-1c66337ba14267788c0671408f859eb2_r.jpg&quot;&gt;&lt;figcaption&gt;超时+同步点不对=帧率减半&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-4a2437059dd2ba5eb2f0588345ea415b_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2569&quot; data-rawheight=&quot;1437&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2569&quot; data-original=&quot;https://pic4.zhimg.com/v2-4a2437059dd2ba5eb2f0588345ea415b_r.jpg&quot;&gt;&lt;figcaption&gt;好的同步点只会稍微降低帧率&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-3d8e0aa130d5d2a492eaf83732d845f9_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2565&quot; data-rawheight=&quot;1439&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2565&quot; data-original=&quot;https://pic2.zhimg.com/v2-3d8e0aa130d5d2a492eaf83732d845f9_r.jpg&quot;&gt;&lt;figcaption&gt;预测+自适应屏幕分辨率=不会miss任何一个VSync&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;把延迟的每一步都讲的非常细致，可操作性很强&lt;/li&gt;&lt;/ul&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-939d5656de91a2194329bfd0d77eb051_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2576&quot; data-rawheight=&quot;1443&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2576&quot; data-original=&quot;https://pic2.zhimg.com/v2-939d5656de91a2194329bfd0d77eb051_r.jpg&quot;&gt;&lt;figcaption&gt;延迟的定义&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;提出了人为插入Throttle反而能&lt;b&gt;大幅&lt;/b&gt;降低延迟的概念，反直觉&lt;/li&gt;&lt;/ul&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-d78ba9eb2275b38f326b79c2b5803222_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2555&quot; data-rawheight=&quot;1430&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2555&quot; data-original=&quot;https://pic3.zhimg.com/v2-d78ba9eb2275b38f326b79c2b5803222_r.jpg&quot;&gt;&lt;figcaption&gt;人为插入Throttle反而能大幅降低延迟&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;提出了具体的估算Throttle的预测算法和Best Practice&lt;/li&gt;&lt;/ul&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-3eb2f4e9e0060c6702c6f94f5f9f2016_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2608&quot; data-rawheight=&quot;1456&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2608&quot; data-original=&quot;https://pic3.zhimg.com/v2-3eb2f4e9e0060c6702c6f94f5f9f2016_r.jpg&quot;&gt;&lt;figcaption&gt;Throttle预估算法&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-size=&quot;normal&quot;&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-19bade49cd79857969926ddb95f0a5b1_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2544&quot; data-rawheight=&quot;1421&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2544&quot; data-original=&quot;https://pic2.zhimg.com/v2-19bade49cd79857969926ddb95f0a5b1_r.jpg&quot;&gt;&lt;figcaption&gt;反馈机制&lt;/figcaption&gt;&lt;/figure&gt;&lt;hr&gt;&lt;p&gt;此Talk讲的非常细致，等GDC Vault更新视频后，在这里补充链接。&lt;i&gt;#TODO&lt;/i&gt;&lt;/p&gt;&lt;p&gt;这个Talk光看PPT很难理解，基本没有文字——好的PPT就应该这样(〃'▽'〃)，需要结合视频食用为佳。心急的同学可以凑活看我的现场速记草稿，基本记录了每一页PPT，侵删：&lt;/p&gt;&lt;p&gt;链接: &lt;a href=&quot;http://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1C_dvkiXLdP7C6SaWQJupKQ&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;pan.baidu.com/s/1C_dvki&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;XLdP7C6SaWQJupKQ&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt; 提取码: 2gnu&lt;/p&gt;
+                    </textarea>
+                    <div class="zh-summary summary clearfix">
+                      先上结论：粗略估算Google Stadia的Controller to Display Latency大概在<b>200ms</b>左右。2019-3-22更新：更精确的测算Google Stadia的Controller to Display Latency在<b>200ms</b>左右，实验误差在208.3±16.7ms内。<b>A Black Box Method</b>14年在做《天谕》引擎的时候，我…
+                    </div>
+                    <p class="hidden-default">
+                      <a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/59924374">2019-03-21</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="recommend-feed feed-item">
+                <span class="zg-right zg-gray-normal feed-meta">问答</span>
+                <h2>
+                  <a class="question_link" href="/question/301288096/answer/629745588" target="_blank" data-id="29229341" data-za-element-name="Title">精灵宝可梦里的精灵会老去吗？</a>
+                </h2>
+              </div>
+              <div class="recommend-feed feed-item">
+                <span class="zg-right zg-gray-normal feed-meta">问答</span>
+                <h2>
+                  <a class="question_link" href="/question/316874489/answer/629289744" target="_blank" data-id="32692815" data-za-element-name="Title">3 月 21 日盐城响水化工厂爆炸，目前状况如何？可能是什么原因引起的？</a>
+                </h2>
+              </div>
+              <div class="recommend-feed feed-item">
+                <span class="zg-right zg-gray-normal feed-meta">静易墨</span>
+                <h2>
+                  <a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/53352337" data-za-element-name="Title">圣诞大战，金州勇士送上的这盘香不香？</a>
+                </h2>
+              </div>
+              <div class="recommend-feed feed-item">
+                <span class="zg-right zg-gray-normal feed-meta">小盗龙带你入侵史前世界</span>
+                <h2>
+                  <a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/60070674" data-za-element-name="Title">巴加达龙：长着“杀马特”发型的网红恐龙</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="explore-tab" id="js-explore-tab">
+            <a class="zg-anchor-hidden" name="daily-hot"></a><a class="zg-anchor-hidden" name="monthly-hot"></a>
+            <ul class="tab-navs clearfix">
+              <li class="tab-nav">
+                <a class="anchor" href="#daily-hot" data-za-c="explore" data-za-a="visit_explore_daily_trendings" data-za-l="explore_daily_trendings">今日最热</a>
+              </li>
+              <li class="tab-nav">
+                <a class="anchor" href="#monthly-hot" data-za-c="explore" data-za-a="visit_explore_monthly_trendings" data-za-l="explore_monthly_trendings">本月最热</a>
+              </li>
+            </ul>
+            <div class="tab-panel">
+              <div data-type="daily" data-zop-feedlist>
+                <div class="explore-feed feed-item" data-offset="1">
+                  <h2>
+                    <a class="question_link" href="/question/316640498/answer/627988681" target="_blank" data-id="32640925" data-za-element-name="Title">如何评价《灵能百分百》第二季第十一集？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="144247848" data-atoken="627988681" data-collapsed="0" data-created="1553092869" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/316640498/answer/627988681">
+                    <meta itemprop="answer-id" content="144247848">
+                    <meta itemprop="answer-url-token" content="627988681">
+                    <a class="zg-anchor-hidden" name="answer-144247848"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>177</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">177</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$sflsnzyn" target="_blank" href="/people/sflsnzyn">SFLSNZYN</a>
+                          </span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="177">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">177</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="32640925" data-action="/answer/content" data-author-name="SFLSNZYN" data-entry-url="/question/316640498/answer/627988681">
+                      <textarea hidden class="content">
+                        &lt;p&gt;谢邀。本集STAFF：&lt;/p&gt;&lt;blockquote&gt;絵コンテ・演出：土上いつき&lt;br&gt;作画監督：小柏奈弓、吉田奏子、亀田祥倫&lt;br&gt;原画：&lt;br&gt;土上いつき　三谷高史　温泉中也　大山神　小笠原真&lt;br&gt;森匡三　加藤滉介　佐倉みなみ　五十嵐海　渡辺啓一朗&lt;br&gt;砂小原巧　藤本航己　談議祐子　江川晋次郎　ちな&lt;br&gt;柴田有香　堀内球子　山本健　坂詰嵩仁　小林大樹&lt;br&gt;榎戸駿　高橋健　藤沢研一（NC）&lt;/blockquote&gt;&lt;p&gt;原画阵大量近些年新番中活跃的年轻原画，分镜演出&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www18.atwiki.jp/sakuga/%3F%26pageid%3D1890&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;土上いつき&lt;/a&gt;（通称miso）是本集灵魂人物，1994年生。这集内容以打戏为主，下面主要分析动作演出。miso在第一集负责了mob帮惠美复原被霸凌组撕碎的小说的高潮镜头：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-5ce8f1ee879302584f5d16e25af2ba67_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-5ce8f1ee879302584f5d16e25af2ba67_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这个镜头具体谁出的主意多不得而知，但很好地体现了miso的演出思想：&lt;b&gt;在意识到作画是演出表现手段的基础上，充分利用数码作画的优势，打破空间限制赋予摄像机复杂的运动&lt;/b&gt;；本集可视为这一思想的扩大化。我觉得用“最后的web系”“正统的直系web系”评价miso恰如其分，miso前后的许多人忽视单张画的精细度而追求连续的动作，导致角色画得潦草，或者在黑白闪的道路上一去不复返。在此背景下回归本心的miso仿佛一股清流，他的厉害之处除了自身画力支撑外，还可以从他的片段中看出对演出效果的思考，上面这个镜头的感染力就是最好的例子。&lt;/p&gt;&lt;p&gt;而本集始终贯彻这种数码作画时代的演出思想，精妙的镜头运动层出不穷。另外miso也充分利用了反派瞬间移动能力为剪辑增添的便利性，让打戏保持紧张的节奏感。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-9279b10124a5df3d85f7c8c2858bd61c_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-9279b10124a5df3d85f7c8c2858bd61c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-e03ac2ca3e012b150e5d4a83214eac85_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-e03ac2ca3e012b150e5d4a83214eac85_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-ebe0c37fcf1d1048146bc5aa649668ac_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-ebe0c37fcf1d1048146bc5aa649668ac_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这里从前几分钟截了几个例子，像最后一卡这样用运动镜头连续进行构图的设计就非常精彩。&lt;/p&gt;&lt;p&gt;在本集之前，伍柏谕担任分镜演出作监的第五集同样也是表现出众的一集，最新一期的Anitama解已经有所涉及：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.bilibili.com/video/av44152949&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;从《灵能百分百》说说动画中的那些暴走回——Anitama解第三十三期&lt;/a&gt;。而包括我在内的许多作画迷对第五集的评价是远不如本集的，我个人认为原因有两点：&lt;/p&gt;&lt;p&gt;第一，两集原画阵都由众多个性强的年轻原画组成，对此伍柏谕采取的方针是尽量允许大家自由发挥，而miso更加注重演出对原画个性的控制。第五集因为伍柏谕个人原因开工最早，尽管工期足够，但伍柏谕一人兼任分镜演出作监的情况下，修正水平不如本集三位主力作监上阵。&lt;/p&gt;&lt;p&gt;第二，miso在本集展现成熟的剪辑功力，注重动作匹配剪辑，镜头与镜头之间的连接十分流畅，这也是miso演出掌控的体现。伍柏谕的思考则有所欠缺。（补充说明一下动画剪辑的形式与实拍剪辑完全不同，这里是借用概念）&lt;/p&gt;&lt;p&gt;在深受作画文化熏陶的年轻原画普遍热衷张扬个性的当下，miso呈献出一集兼顾年轻原画擅长风格与演出控制力的作画回，对于改善风气有重要意义。演出方面个人主要是以上这些浅层思考，作画分析的话这里只提一下全片最厉害的一段，更全面的担当信息可以查阅sakugabooru：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.sakugabooru.com/post%3Ftags%3Dmob_psycho_100_ii%2Bsource%253A%252311&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;/mob psycho 100 ii source:#11 | sakugabooru&lt;/a&gt;&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1091811267148353536&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;&quot; data-poster=&quot;https://pic3.zhimg.com/v2-9e943257602116479b0800218db1a2d6.jpg&quot; data-lens-id=&quot;1091811267148353536&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic3.zhimg.com/v2-9e943257602116479b0800218db1a2d6.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1091811267148353536&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;担当原画藤泽研一，不清楚为什么这集选择NC（不记名），最后是龟田祥伦在推上公布的担当。关于藤泽的介绍可见Anitama文章：&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.anitama.cn/article/9321b7636f6fdce0&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;松本宪生的得意门生——藤泽研一作画MAD&lt;/a&gt;。藤泽是这集原画阵里唯一的老手，也展现了老手的实力，对于复杂的镜头运动和受力关系中pose的准确把握和力量感的表达是年轻人无法媲美的。&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1091813332922802176&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;&quot; data-poster=&quot;https://pic2.zhimg.com/v2-cdcbc40ee3ba1accb78061c3dc297e81.jpg&quot; data-lens-id=&quot;1091813332922802176&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic2.zhimg.com/v2-cdcbc40ee3ba1accb78061c3dc297e81.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1091813332922802176&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;另外温泉中也负责的一段打戏在推特引起不小话题，看过FA22和皇帝圣印战记的温泉卡的话对温泉的大脸应该不陌生了，至于表现效果如何只能说仁者见仁智者见智。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        <img src="https://pic4.zhimg.com/50/v2-5ce8f1ee879302584f5d16e25af2ba67_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="640" data-rawheight="360" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-5ce8f1ee879302584f5d16e25af2ba67_r.jpg">谢邀。本集STAFF：絵コンテ・演出：土上いつき 作画監督：小柏奈弓、吉田奏子、亀田祥倫 原画： 土上いつき 三谷高史 温泉中也 大山神 小笠原真 森匡三 加藤滉介 佐倉みなみ 五十嵐海 渡辺啓一朗 砂小原巧 藤本航己 談議祐子 江川晋次郎 ちな 柴田有香 堀…<a href="/question/316640498/answer/627988681" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/316640498/answer/627988681">发布于 2019-03-20</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-32640925">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          14 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="2">
+                  <h2>
+                    <a class="question_link" href="/question/316762021/answer/627908485" target="_blank" data-id="32667885" data-za-element-name="Title">如何评价“杨超越杯编程大赛”的参赛作品《杨超越秘密杂货铺》？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="144233364" data-atoken="627908485" data-collapsed="0" data-created="1553085928" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/316762021/answer/627908485">
+                    <meta itemprop="answer-id" content="144233364">
+                    <meta itemprop="answer-url-token" content="627908485">
+                    <a class="zg-anchor-hidden" name="answer-144233364"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1124</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">1124</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$yuan-dian-41-96" target="_blank" href="/people/yuan-dian-41-96">若缺</a>
+                          </span><span title="若你早与她人两心同，何苦惹我错付了情衷" class="bio">若你早与她人两心同，何苦惹我错付了情衷</span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="1124">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">1124</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="32667885" data-action="/answer/content" data-author-name="若缺" data-entry-url="/question/316762021/answer/627908485">
+                      <textarea hidden class="content">
+                        &lt;p&gt;就是，那几天在刷知乎嘛，看见有这个比赛，说去编程，前三名给内推，还有2000块钱，我就报名了。本来只让我收集语录的，没想到后面就成策划了。我想着，他们编程的，都是智商尬高的，我这种的怎么能去编程嘛…&lt;/p&gt;&lt;p&gt;别笑这不是段子，我真的是这么来的2333&lt;/p&gt;&lt;p&gt;我是＠原点Ray____，本次项目的策划，希望大家多多支持！&lt;/p&gt;&lt;p&gt;作为项目组年龄最小的人…我一个中文系大二学生，压力山大…大家都非常厉害啊，专业的美工、湾区的大佬，平时上班很忙，下班了就抓紧时间加班加点干活，我们的UI小凯姐姐为了做视频，昨晚上爆肝到三点，真的是为她点赞了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最大的感受就是体会到了超越妹妹的那种恐惧感。&lt;/p&gt;&lt;p&gt;我本来就是想着参加比赛没准得个奖，实在不行也有一段这么闪闪发光的项目经历。刚好这个组有个职位很适合我这种纯文科生打杂，我就来了。没想到在大家的支持和鼓励下，我居然一步一步升职成了策划，成了产品经理一类的玩意…&lt;/p&gt;&lt;p&gt;其实是真的非常害怕，我清楚自己几斤几两，以前从来没写过策划，ppt流程图都是摸索着画的，我有一个本子用来画草图，一个多星期画了半本。&lt;/p&gt;&lt;p&gt;但是还是不够啊，大家都太厉害了，我特别怕自己战五渣拖累全组进度，每天拼命地补课，争分夺秒画图到两三点，和各位大佬商量下一个环节到底怎么走，一个简单的循环图改了七八遍都不止…&lt;/p&gt;&lt;p&gt;然而还是做不好&lt;/p&gt;&lt;p&gt;还是和优秀差一点点&lt;/p&gt;&lt;p&gt;阿越说：“所以让我站到了这样的一个位置，可能接受的质疑会比较多一点，但是我不知道有没有人能站到我的这个位置上，去体会一下这种恐惧感。”&lt;/p&gt;&lt;p&gt;我真的体会到了，非常恐惧。那种无论怎么努力还是做不好的恐惧感，那种害怕拖累别人的绝望感，太折磨人了。&lt;/p&gt;&lt;p&gt;阿越说：“可是我还是要站在这里，因为这是别人对我的支持，我不能辜负他们，我再害怕我也要站下去。”&lt;/p&gt;&lt;p&gt;但是能怎么办呢？大家的支持推动我走到了这一步，我不可能就这么撂挑子不干的，那是对所有人的不负责任，所以我再恐惧、再绝望，也要拼命地努力下去。&lt;/p&gt;&lt;p&gt;有时候夜深人静舍友都睡了，我还在画图，我就会看看杨超越说过的话，看着她就像看见了自己。她经历的那些变故其实我也经历过，我找到了一个可以有共鸣的女孩，而且和我是同龄人，她是那么优秀的女孩子，我看着她，我觉得我也可以变得像她一样闪闪发光。&lt;/p&gt;&lt;p&gt;我想这就是我们做这个游戏的意义。&lt;/p&gt;&lt;p&gt;杨超越在努力，他们都在努力，所以我也会努力的。我要努力成为更优秀的人，我们都要成为那个更好的自己！&lt;/p&gt;&lt;p&gt;我们之间的感情，只有你和我知道。&lt;/p&gt;&lt;p&gt;谢谢大家，我是原点，希望大家支持杨超越，也支持杨超越秘密杂货铺。&lt;/p&gt;&lt;hr&gt;&lt;p&gt;一夜之间火了…也一夜之间好几百个赞了…感谢大家的支持，真的非常非常谢谢！&lt;/p&gt;&lt;p&gt;大家的评论我都看了，很意外的，居然没有人骂我，都很温柔地鼓励我让我加油，友善度满满，我真的特别感动，再次谢谢大家对我、对我们这个小队的支持～也感谢小队的各位大佬终于带着我这个菜鸡起飞～&lt;/p&gt;&lt;p&gt;事实上单凭这个宣传片基本不能体现什么东西，也很单薄，有很多人也给我们提出了意见。我们都会认真倾听，接受所有的批评和建议，毕竟阿越说了：“别人说，那就是不好的，这是事实。我觉得事实的东西你就没有办法辩驳。”&lt;/p&gt;&lt;p&gt;我们的确做的不够好，一切都还是雏形。原因有很多，但那些都不重要，观众是严苛的，他们只需要看到最终那个完美的产品出来就好了，其他的不该成为他们的负担。&lt;/p&gt;&lt;p&gt;在今天这个热度下，不只是我，所有人都在负重前行，很激动也很恐惧。关注是一把双刃剑，给了我们人气和大家的支持，但是，一旦有任何差错，那就是无止境的群嘲。所谓在刀尖上行走，大概就是这个感觉。唉，妹妹当年在创时期太苦了，心疼。&lt;/p&gt;&lt;p&gt;不管怎么样，我们都会努力的，既然决定要去做这件事情，那就要努力努力再努力！咬紧牙关再坚持一下！再努力一点！要把最好的产品呈现给一直支持我们的你们！&lt;/p&gt;&lt;p&gt;我也要加油，我也要努力，我要成为会好好画流程图、会写出完美文案的策划！&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        就是，那几天在刷知乎嘛，看见有这个比赛，说去编程，前三名给内推，还有2000块钱，我就报名了。本来只让我收集语录的，没想到后面就成策划了。我想着，他们编程的，都是智商尬高的，我这种的怎么能去编程嘛…别笑这不是段子，我真的是这么来的2333我是＠原…<a href="/question/316762021/answer/627908485" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-03-20" target="_blank" href="/question/316762021/answer/627908485">编辑于 昨天 11:32</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-32667885">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          156 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="3">
+                  <h2>
+                    <a class="question_link" href="/question/316720398/answer/627926581" target="_blank" data-id="32658697" data-za-element-name="Title">如何看待部分cp粉腐化九辫互动并大肆传播？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="144236639" data-atoken="627926581" data-collapsed="0" data-created="1553087673" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/316720398/answer/627926581">
+                    <meta itemprop="answer-id" content="144236639">
+                    <meta itemprop="answer-url-token" content="627926581">
+                    <a class="zg-anchor-hidden" name="answer-144236639"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>99</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">99</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$ke-zhou-80" target="_blank" href="/people/ke-zhou-80">从有到无</a>
+                          </span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="99">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">99</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="32658697" data-action="/answer/content" data-author-name="从有到无" data-entry-url="/question/316720398/answer/627926581">
+                      <textarea hidden class="content">
+                        &lt;p&gt;如果继续下去，肯定是会有影响的。现在二人基本还在相声圈内，但是他们两个早晚是要踏上更大的平台的，而且现在正在被关注着。有些事儿不是对错的问题，而是不被大众普遍接受的问题。想要提高国民度，必然不能有的一些问题。不要说什么清者自清，就二爷上次那个黑热搜，他清得不能再清了，现在依旧有人一提起就说他直男癌。黑子们无孔不入，唯粉只能谨小慎微。&lt;/p&gt;&lt;p&gt;还有我看到有cpf对什么叫“圈地自萌”有很深的误解，觉得她们现在已经是圈地自萌了。那我就来说说，我曾经作为一个可以和唯粉友好相处的cpf是怎么做的吧。当时我在的圈，个人超话排不上，但是cp超话一直前三（现在不是了，你们找不到的）。&lt;/p&gt;&lt;p&gt;&lt;b&gt;在官方发的宣传下，单人宣传就只带单人彩虹屁转评，双人宣传才带双人彩虹屁转评，如果官方发的宣传有腐向的或者是嗑点，转评会用“两兄弟要一起努力呀”之类的，&lt;/b&gt;然后回到自己的cp超话里去随便怎么舞，去刷“今天过年了”“宣布结婚了”，还是写小段子，发小视频没人会管。&lt;/p&gt;&lt;p&gt;但是，大量脑补后的产物（我在前圈大多只写文），只发在自己的微博，然后会发群二维码到超话里，想看的要检查主页进群才能看。一是怕黑子，二是怕年龄小的妹妹看到。我们当时谨慎成什么样呢，我p了一张两个人很近很近互相对望的图，虽然只是在原图上稍微改动，但是我们是不许发出群的，为什么呢，因为p的太真的，怕别人看到真的以为他俩有什么，怕对二位蒸煮有不好的影响。&lt;/p&gt;&lt;h2&gt;最后，&lt;b&gt;在单人超话，只发单人相关&lt;/b&gt;。如果内容带有另外一个，发言的语言就用“崽崽和xxx的合作舞台好帅呀”这种唯粉语言。而不是“xxx和xxx配一脸”这种cpf语言。&lt;/h2&gt;&lt;p&gt;当然，我没有立场要求任何人和我那时一样，我当时那样谨小慎微也是出于我对他们的珍惜，并不是说所有cpf都应该这样。我那时为了那对cp确实很累，但是我现在为了二爷一样很累。想不累也可以，那就是不参与饭圈，自己一个人爱怎么嗑怎么嗑。但是一旦参与进饭圈，饭圈的规则最基本的还是要遵守的吧。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        如果继续下去，肯定是会有影响的。现在二人基本还在相声圈内，但是他们两个早晚是要踏上更大的平台的，而且现在正在被关注着。有些事儿不是对错的问题，而是不被大众普遍接受的问题。想要提高国民度，必然不能有的一些问题。不要说什么清者自清，就二爷上次…<a href="/question/316720398/answer/627926581" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/316720398/answer/627926581">发布于 2019-03-20</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-32658697">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          12 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="4">
+                  <h2>
+                    <a class="question_link" href="/question/316613598/answer/627789398" target="_blank" data-id="32634973" data-za-element-name="Title">为什么在 KPL 使用射手时必须要搭配赵云或者兰陵王打野？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="144211771" data-atoken="627789398" data-collapsed="0" data-created="1553075277" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="0" data-zop>
+                    <link itemprop="url" href="/question/316613598/answer/627789398">
+                    <meta itemprop="answer-id" content="144211771">
+                    <meta itemprop="answer-url-token" content="627789398">
+                    <a class="zg-anchor-hidden" name="answer-144211771"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>535</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">535</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$ginojie" target="_blank" href="/people/ginojie">Mr.Poker</a>
+                          </span><span title="MOBA类游戏的前5%玩家" class="bio">MOBA类游戏的前5%玩家</span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="535">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">535</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="32634973" data-action="/answer/content" data-author-name="Mr.Poker" data-entry-url="/question/316613598/answer/627789398">
+                      <textarea hidden class="content">
+                        &lt;p&gt;这主要涉及到资源分配的问题。&lt;/p&gt;&lt;p&gt;首先，大家都知道，射手普遍都比较吃发育，他们需要两件套甚至三件套才能保证推进效率和团战伤害量。&lt;/p&gt;&lt;p&gt;在KPL中，如果一方选出了边路射手，那肯定是想打体系的，射手的优势在于手长且持续输出高，中期有了装备支撑后，可以带领团队疯狂推塔，掌握推进节奏。&lt;/p&gt;&lt;p&gt;因此，职业选手都会想着如何尽快的让边射装备成型，让他们可以快速的度过前中期的发育真空期。&lt;/p&gt;&lt;p&gt;&lt;b&gt;很显然，让资源是很好的办法。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;如何让资源？&lt;/p&gt;&lt;p&gt;在打野位上，职业选手会选择一些不太吃装备的英雄，如赵云，兰陵王和橘右京这些。&lt;/p&gt;&lt;p&gt;在前期让部分的野区资源给射手发育，有时候极端点，甚至还会直接让一红，为了就是让射手更好的形成线上压制，给他们一个完美的发育空间。&lt;/p&gt;&lt;p&gt;而这些打野在KPL里有一个术语叫做“吃土型打野”，也叫“蓝领打野”。&lt;/p&gt;&lt;p&gt;&lt;b&gt;那为什么赵云和兰陵王可以成“蓝领打野”，而韩信和李白却不行呢？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;其中最主要的原因，就是这些“蓝领打野”的基础伤害足够高，前期的一套爆发不是韩信和李白可以比拟的。&lt;/p&gt;&lt;p&gt;韩信和李白这些刺客打野，强在两件套或者三件套之后，所以他们都会比较吃发育，而赵云和兰陵王可能带着一把暗影战斧就能追着李白和韩信打了。&lt;/p&gt;&lt;p&gt;除此之外，这些“蓝领打野”还有一个共同特点，就是有较多的控制和限制手段。&lt;/p&gt;&lt;p&gt;这样一来，他们对红buff的依赖就会降低很多，不拿红buff也有稳定的控制可以去Gank带节奏，正好可以稳住前期局势，拖到中期，让射手发育成型出来推塔。&lt;/p&gt;&lt;p&gt;等射手出来带起推进节奏的时候，“蓝领打野”就会立即转型成为带线边路，为团队解决兵线问题，顺便再补补发育，出多两件肉装，在后期帮助射手打控制，为他们营造良好的输出环境。&lt;/p&gt;&lt;p&gt;&lt;b&gt;这就是赵云，兰陵王和橘右京等“蓝领打野”的功效和优势。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;他们就像“调和剂”一样，在教练确定要打边射体系之后，拿出来调节C位的资源分配额度，让边射快速成型。&lt;/p&gt;&lt;p&gt;当然，这只是针对职业赛场，在路人局里就没有这么讲究了。&lt;/p&gt;&lt;p&gt;毕竟除了高分段，敌人很少会盯着你们一个点来猛攻，就算知道你们是“野核”+“边射”，前期发育很慢，资源分配起冲突了，他们也不会去干扰或者反野，因为路人配合有限，万一反buff失败了，就得不偿失了。&lt;/p&gt;&lt;p&gt;所以在路人局里选“刺客打野”+“边射”，问题并不大。&lt;/p&gt;&lt;p&gt;不过，也不是什么情况下搭配刺客打野都是可行的，如果遇到以下两种情况，刺客打野反而会成为累赘。&lt;/p&gt;&lt;p&gt;&lt;b&gt;①己方没有任何前排或者半肉的战士&lt;/b&gt;&lt;/p&gt;&lt;p&gt;刺客打野大部分都是近身输出的英雄，他们不适合先手进场，最好是队友冲锋跟对面打了一轮之后，再进场收割，如果队伍里全是后排脆皮的话，那刺客打野不仅没有输出环境，还要被迫先手，非常被动。&lt;/p&gt;&lt;p&gt;&lt;b&gt;②己方中路是蓝耗非常严重的法师英雄&lt;/b&gt;&lt;/p&gt;&lt;p&gt;如果中路选了蓝耗非常严重的英雄，如貂蝉，小乔，杨玉环，扁鹊和沈梦溪这些，也不建议选刺客打野，因为刺客打野本身就吃蓝buff，他们有蓝才能秀，才能游离在战场之中，如果你硬是要选刺客打野，就容易跟中单起冲突。&lt;/p&gt;&lt;p&gt;当然，你也可以叫中路出圣杯来缓解自己的蓝耗问题，让队伍里的资源分配达到平衡值，这样中路无论是什么英雄，都能搭配刺客打野了。&lt;/p&gt;&lt;p&gt;&lt;b&gt;其实资源分配不合理，也是大家平时输的主要原因。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;举个例子，很多玩家打排位，都喜欢选输出英雄，导致上中下野都是发育点。&lt;/p&gt;&lt;p&gt;这样一来，前中期没有人打架，野区就容易沦陷，逼迫打野去线上蹭经济，引起连锁反应，使得各个发育点都很难装备成型。&lt;/p&gt;&lt;p&gt;&lt;b&gt;一般来说，一个队伍里，最多三个发育点。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;如果你看到打野是猴子，下路选了伽罗，上路又是吕布李信什么的，那中路就别选小乔或者嬴政了，最好选配合型法师，如王昭君，武则天和张良这些。&lt;/p&gt;&lt;p&gt;这样不仅可以让资源给队友快速发育，还能扛起前期节奏的重任，帮助三个发育点稳住局势，让他们安稳的发育到中期，再一起抱团打架。&lt;/p&gt;&lt;p&gt;&lt;b&gt;除此之外，大家经济起来了，也要懂得让资源给队友。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;我经常在排位里会看到一些玩李白韩信的玩家，拿最多人头，经济也是全场最高的，但还是很喜欢刷，无论他有没有六神装，看到兵线和野怪都会去吃掉。&lt;/p&gt;&lt;p&gt;最终5v5团战打不过了，他们就会说队友太菜了，自己完全带不动。&lt;/p&gt;&lt;p&gt;其实我想说的是，有一部分输的原因也是来自于他们自己的，因为他们一直在挤压队友的发育环境。&lt;/p&gt;&lt;p&gt;&lt;b&gt;你把资源都吃光了，前排拿什么去扛伤害？射手拿什么去输出？法师拿什么去Poke？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;虽然看起来你的数据很华丽，但说白了，人头并不值多少钱，是你拿了队友的兵线之后，才能实现全场经济最高。&lt;/p&gt;&lt;p&gt;很显然，又想马儿跑，又要马儿不吃草，是行不通的。&lt;/p&gt;&lt;p&gt;如果你能在三件套的时候，让出一部分资源给队友，比如只带一条路，其他两路的兵线不碰，又或者是多去反蹲，让队友的打钱环境更好一些。&lt;/p&gt;&lt;p&gt;这样资源分配才会平衡，集合团战的时候，队友才有装备跟着你去打架。&lt;/p&gt;&lt;p&gt;真正强大的玩家，不仅很会滚雪球，最重要的是他们懂得把优势分给队友，让全队一起富起来，而不是一个人把钱全部装起来，导致自己一死，团战就彻底溃败了。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        这主要涉及到资源分配的问题。首先，大家都知道，射手普遍都比较吃发育，他们需要两件套甚至三件套才能保证推进效率和团战伤害量。在KPL中，如果一方选出了边路射手，那肯定是想打体系的，射手的优势在于手长且持续输出高，中期有了装备支撑后，可以带领团…<a href="/question/316613598/answer/627789398" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-03-20" target="_blank" href="/question/316613598/answer/627789398">编辑于 2019-03-20</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-32634973">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          64 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="2">
+                        <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-18a153174a46f901d80b2ec6b95ce795_s.jpg">
+                        <span class="zg-bull">&bull;</span><a href="/copyright/apply?answer=627789398" target="_blank" class="meta-item copyright">申请转载</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="5">
+                  <h2>
+                    <a class="question_link" href="/question/314678473/answer/627748583" target="_blank" data-id="32205038" data-za-element-name="Title">孩子如何教育？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="144204306" data-atoken="627748583" data-collapsed="0" data-created="1553072386" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/314678473/answer/627748583">
+                    <meta itemprop="answer-id" content="144204306">
+                    <meta itemprop="answer-url-token" content="627748583">
+                    <a class="zg-anchor-hidden" name="answer-144204306"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>370</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">370</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line"><a class="author-link" data-hovercard="p$t$ceciliacat" target="_blank" href="/people/ceciliacat">Cecilia</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary">
+                            <a href="/people/ceciliacat#hilightbadge" target="_blank">儿童教育话题优秀回答者</a>
+                          </span><span title="学习型的二胎妈妈" class="bio">学习型的二胎妈妈</span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="370">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">370</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="32205038" data-action="/answer/content" data-author-name="Cecilia" data-entry-url="/question/314678473/answer/627748583">
+                      <textarea hidden class="content">
+                        &lt;p&gt;题主看到的是一个&lt;b&gt;令人头疼&lt;/b&gt;的4岁孩子，我看到的却是一个&lt;b&gt;不快乐&lt;/b&gt;的孩子。&lt;/p&gt;&lt;blockquote&gt;做一件事情上没有专注力，东张西望，没有耐心&lt;br&gt;做一件事情做不好就着急，遇到困难就放弃&lt;br&gt;一件事情不如意，开始流眼泪&lt;br&gt;每天在家学习一个小时，学习的过程也不开心，坐不直，脸上毫无表情&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;从题主的不多的描述来看，4岁半的孩子被家长要求：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;每天在家学习一小时&lt;/li&gt;&lt;li&gt;学习的时候需要坐直，需要专注，不能东张西望&lt;/li&gt;&lt;li&gt;做的题难度超过了孩子现有水平时，孩子需要耐心，不能着急，遇到困难不能放弃，不许流眼泪&lt;/li&gt;&lt;li&gt;最重要的是他不开心，你看他脸上毫无表情，不想做题、做不出来着急，被要求继续做的时候只能哭一哭，却无法摆脱家长对自己的要求&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;是的，现在的孩子，或者说家长，面临着沉重的学业压力，尤其和周围人一比较，生怕孩子学不会了，学太晚了，跟不上了，所以哪怕孩子才幼儿园中班，也要在家开课，希望顺利度过幼小衔接。&lt;/p&gt;&lt;p&gt;那么，目前市面上的幼小衔接包括什么内容呢？&lt;/p&gt;&lt;p&gt;语文，主要是拼音和识字；数学，据传小学入学标准是学会100以内的加减法；英语，据说是要学会日常会话。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;这些内容对4岁半的孩子来说，真的太难了。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;语文：从去年开始小学一年级的语文课本已经将拼音挪到了开学后几周才教授，并且大概经过2-3个月的学习就迅速过度掉；识字倒还好，但写字对于孩子精细动作的要求比较高，至少应该从5岁以后再开始练习；&lt;/p&gt;&lt;p&gt;数学：5岁左右能写会1-10就不错了，尤其是数字8的书写，确实需要反复练习。孩子可能知道有2个糖，又多了3个，一共有5个，却不知道2+3=？这正是因为他们的抽象逻辑思维还没有发育成熟，对抽象符号的学习还存在困难；至于100以内的加减法，其实真的没必要学太早，因为孩子只要能熟练掌握20以内的加减法，很快就能学会；&lt;/p&gt;&lt;p&gt;英语：日常会话倒不算难，但孩子从这时候再开始英语学习，确实不如早期启蒙的效果好，因为他们是以中文思维去学习另一门语言的，流行的自然拼读法也不适合用于英语启蒙，因为它所针对的是会听说英语的人，将听说材料转化为读写材料。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;如果不符合孩子的认知发展和成长规律，过早地进入抽象符号的学习，只会让孩子失去学习的信心&lt;/b&gt;，觉得自己这也不会、那也不懂，从而越来越消极，缺乏学习的动力；退一万步说，即使通过大量的强制练习和反复记忆学会了，再过一年以后，孩子花1个星期就能轻松学会的内容，为什么要现在花费1-2个月的痛苦、打骂来完成呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;更重要的是，家长所做的一切，都是在削弱孩子的内在动机，让他从小就开始厌恶学习，至少厌恶当前的学习方式和氛围。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;那么，可以在家提前教幼儿园的孩子学习吗？可以，但要注意以下几点：&lt;/p&gt;&lt;p&gt;&lt;b&gt;首先，符合孩子的认知发展。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;比如教数学时，不要上来就用抽象符号，让孩子做练习题，而是以孩子能理解的、形象的方式进行。放五颗糖，孩子和家长一起抢，看每个人能拿到几颗糖，这样教加减法孩子会觉得更有趣。类似地，利用数手指、数小棒、数积木等锻炼孩子的加减运算，孩子就会喜欢。&lt;/p&gt;&lt;p&gt;教各种形状，不要只是做题，而是从生活中寻找和发现素材等等。这些可以单独写一篇，就不在此赘述了。&lt;/p&gt;&lt;p&gt;&lt;b&gt;其次，以游戏的方式进行。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;孩子是在游戏中学习的。将英文单词的学习变成比比看谁先说出来，妈妈说单词宝宝能否找到等游戏；将数学的比大小变成贪吃的鳄鱼，哪堆大就吃哪堆，孩子就会喜欢玩，也记得牢。语文的学习可以讲故事，利用故事让孩子记住1-3个字，而不是仅仅拿着字卡让孩子硬背。&lt;/p&gt;&lt;p&gt;&lt;b&gt;第三，降低挑战难度，让孩子建立学习的信心。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;研究发现，大学生喜欢挑战最高难度以获得最高奖金，但幼儿园孩子只喜欢挑战一点点难度，否则就容易放弃。即便如此，幼儿园的孩子依然会高估自己的实力，出现挑战失败。&lt;/p&gt;&lt;p&gt;父母在教授孩子知识时，也需要将我们认为很简单、但对孩子来说很难的知识点打碎，让孩子在一步步成功的挑战中建立信心。例如，学会用三个等边三角形拼梯形，那么用四个等边三角形拼三角形时，就可以转化为梯形+三角形的已知问题。&lt;/p&gt;&lt;p&gt;父母教授时多给孩子讲思路，讲方法，讲自己的理解，而不是要求孩子会背加减法表，就能解决问题。只有这样，孩子才会获得一点点的挑战成功、一点点的满足感和自信、一点点的学习兴趣。&lt;/p&gt;&lt;p&gt;&lt;b&gt;第四，让孩子意识到学习的价值——重视知识的运用。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;学以致用，此话不假。&lt;/p&gt;&lt;p&gt;去过英语地区，孩子才知道学习英语，就能在国外也吃到好吃的、玩到好玩的，所以会努力去学他想说的话——对我家来说，就是各种食物的名称。&lt;/p&gt;&lt;p&gt;学会认字，就能慢慢看懂标识牌、故事书、商品标签。一旦发现孩子认识的字，就提示孩子，让他猜猜看写的是什么，原来这个就是巧克力，原来这里不能去，从而让孩子获得自信，想认更多的字。&lt;/p&gt;&lt;p&gt;至于数学，我家的玩法就更多了。小萌喜欢玩打仗的游戏，我们就用数字和他比拼：我出3个兵，你要出几个才能打败我呀，这是比大小；现在我又来了5个兵，一共多少个兵呀，这是加法；有2个兵被打败了，还剩几个兵，这是减法；我的兵以一挡二，所以你要派几个兵啊，这是乘法和比大小……小萌就很喜欢数学，因为他知道只有学好了数学，才能打过妈妈派出的各种兵。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我家小萌现在4岁8个月，他很爱学习，但他感受不到自己在学习。对他来说，学习就是玩，学习就是游戏，学习就是听故事……至少，他在学习的时候是开心的。并且对此充满了兴趣。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;教育从来都不是一件轻松的事。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;父母不是老师，也许很难像教课一样将知识点讲透、拆分细致，但我们能做的还有很多很多，比如不断鼓励孩子的努力，比如以趣味性、游戏性的方式引入孩子的学习，比如告诉孩子学习对他的生活到底能带来哪些立竿见影的短期好处和长期优势，比如……&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;我是相信快乐教育的。但这种快乐教育并非是让孩子快乐地学习，而是让孩子在我们的帮助下能通过一个个的小挑战解决问题，甚至在日复一日看似重复的积累中提升自己的能力，从而获得满足感、自信和快乐。&lt;/b&gt;&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        题主看到的是一个<b>令人头疼</b>的4岁孩子，我看到的却是一个<b>不快乐</b>的孩子。做一件事情上没有专注力，东张西望，没有耐心 做一件事情做不好就着急，遇到困难就放弃 一件事情不如意，开始流眼泪 每天在家学习一个小时，学习的过程也不开心，坐不直，脸上毫无表情 …<a href="/question/314678473/answer/627748583" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/314678473/answer/627748583">发布于 2019-03-20</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-32205038">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          24 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-panel">
+              <div data-type="monthly" data-zop-feedlist>
+                <div class="explore-feed feed-item" data-offset="1">
+                  <h2>
+                    <a class="question_link" href="/question/59864904/answer/607620943" target="_blank" data-id="16169077" data-za-element-name="Title">你有哪些珍藏许久的短句？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="140544180" data-atoken="607620943" data-collapsed="0" data-created="1551057536" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="0" data-zop>
+                    <link itemprop="url" href="/question/59864904/answer/607620943">
+                    <meta itemprop="answer-id" content="140544180">
+                    <meta itemprop="answer-url-token" content="607620943">
+                    <a class="zg-anchor-hidden" name="answer-140544180"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1200</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">1200</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$bing-bu-shi-zhen-zheng-de-kuai-le" target="_blank" href="/people/bing-bu-shi-zhen-zheng-de-kuai-le">并不是真正的快乐</a>
+                          </span><span title="总有不期而遇的温暖和生生不息的希望。" class="bio">总有不期而遇的温暖和生生不息的希望。</span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="1200">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">1200</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="16169077" data-action="/answer/content" data-author-name="并不是真正的快乐" data-entry-url="/question/59864904/answer/607620943">
+                      <textarea hidden class="content">
+                        &lt;p&gt;1.我常常想起一些人。没有想念那么黏，没有想望那么热，只是稀薄的想起。—— 黎戈 《私语书》&lt;/p&gt;&lt;p&gt;2.你要爱荒野上的风声，胜过爱贫穷和思考。暮冬时烤雪，迟夏写长信，早春不过一棵树。 ——陈鸿宇的《途中》&lt;/p&gt;&lt;p&gt;3.“七月在野，八月在宇，九月在户，十月蟋蟀入我床下”--《诗经·七月》&lt;/p&gt;&lt;p&gt;4.蛋糕里含着自己的灵魂的碎屑，厨房里含着人间烟火。&lt;/p&gt;&lt;p&gt;5.有趣的灵魂多如繁星，好看的皮囊才是万里挑一。&lt;/p&gt;&lt;p&gt;6.做一个恰到好处的女子，能承受挫折，也能释放天性。看似薄情，实际深情，不煽情，不矫情，并且，以自己喜欢的方式过一生。 然后进一寸，有一寸的欢喜。&lt;/p&gt;&lt;p&gt;7.你的征途本可以是星辰大海，为何要纠结这半亩水洼？&lt;/p&gt;&lt;p&gt;8.每个人都不是生而伟大，而是在其成长过程中变得伟大。&lt;/p&gt;&lt;p&gt;9.藏书如山积，读书如水流。 山形有限度，水流无时休。&lt;/p&gt;&lt;p&gt;10.我读过几千本书，走过几万里路。见识过云端星辰，也品尝过泥土尘埃。&lt;/p&gt;&lt;p&gt;我要把这一切讲给你听。&lt;/p&gt;&lt;p&gt;11.希望十七岁的喜欢是七十岁的欢喜 昨天。&lt;/p&gt;&lt;p&gt;12.当你能爱的时候，就大胆地去爱吧，因为爱这件事，本身就只能猜到开头，却猜不到结尾。&lt;/p&gt;&lt;p&gt;13.鲜衣怒马少年时，一日看尽长安花&lt;/p&gt;&lt;p&gt;14.幸得识卿桃花面，自此阡陌多暖春。&lt;/p&gt;&lt;p&gt;15.现实的生活乏善可陈，梦想中的生活才更有意义，因为它超越了死亡，永不消逝。”&lt;/p&gt;&lt;p&gt;16.或许当我走过半生，归来已不是年少模样，但我知道，你一直都在。因为你在，我的年少时光才有处安放。&lt;/p&gt;&lt;p&gt;17.你是你的沧海一粟，你是你的万千可能之一种”。&lt;/p&gt;&lt;p&gt;18.黑色是一种最有态度的颜色，它分明在表达“我不烦你，你也别烦我”。——山本耀司&lt;/p&gt;&lt;p&gt;19.喜欢挖掘日常琐碎里深埋的小星光，愿它照亮我们的生活。&lt;/p&gt;&lt;p&gt;20.错过的爱情像风。吹来的时候很猛。吹走的时候很痛。&lt;/p&gt;&lt;p&gt;21.无聊的人会选择在一起腐烂，有趣的人才要在一起蓬荜生辉。&lt;/p&gt;&lt;p&gt;22.深爱是胸口有雷霆万钧，唇齿之间只有云淡风轻 。” —— 独木舟&lt;/p&gt;&lt;p&gt;23.你要搞清楚自己人生的剧本，不是你父母的续集，不是你子女的前传，更不是你朋友的外篇。对待生命你不妨大胆冒险一点，因为你好歹要失去它。&lt;/p&gt;&lt;p&gt;如果这世界真有奇迹，那只是努力的另外一个名字。生命中最难的阶段不是没有人懂你，而是你不懂你自己。”&lt;/p&gt;&lt;p&gt;你们偷偷收藏不点赞，嘤嘤，求赞呢 &lt;/p&gt;&lt;p&gt;24.如果晚点相遇，你刚好温柔，我刚好成熟，我们会不会走到最后。&lt;/p&gt;&lt;p&gt;25.愿所有梦见远方的人，心有惊雷，生似静湖&lt;/p&gt;&lt;p&gt;26.欲买桂花同载酒，终不似、少年游。&lt;/p&gt;&lt;p&gt;27.我什么都没忘，只是有些事适合收藏。——《我与地坛》&lt;/p&gt;&lt;p&gt;28.我把我整个灵魂都给你，连同它的怪癖，耍小脾气，忽明忽暗，一千八百种坏毛病。它真讨厌，只有一点好，爱你。——《爱你就像爱生命》&lt;/p&gt;&lt;p&gt;29.山有木兮木有枝，心悦君兮君不知。——《越人歌》&lt;/p&gt;&lt;p&gt;30.对世界而言，你是一个人；但是对于某个人，你是他的整个世界。——《飘》&lt;/p&gt;&lt;p&gt;31.真正有气质的淑女，从不炫耀她所拥有的一切，她不告诉人她读过什么书，去过什么地方，有多少件衣服，买过什么珠宝，因为她没有自卑感。——《圆舞》&lt;/p&gt;&lt;p&gt;32.爸爸的花儿落了，我已不是小孩子。——《城南旧事》&lt;/p&gt;&lt;p&gt;33.如果你很想要一件东西，那么就放他离开，等他回来找你的时候，你就永远拥有他了。——《哑舍》&lt;/p&gt;&lt;p&gt;34.如果你认识从前的我，那么你就会原谅现在的我。——《倾城之恋》&lt;/p&gt;&lt;p&gt;35.你不会遇到第二个我，友情也好，爱情也罢。——《千与千寻》&lt;/p&gt;&lt;p&gt;36.我们都因为一个人的光芒万丈，因此循着轨迹孤注一掷的前往。哪怕肝肠寸断，哪怕遍体鳞伤，在所不惜，义无反顾。&lt;/p&gt;&lt;p&gt;37.“学我者生，像我者死”--《南海十三郎》&lt;/p&gt;&lt;p&gt;38.没有资本而对别人生出妒忌从而横加指责也是挺可怕的。 ——沃•兹基硕得&lt;/p&gt;&lt;p&gt;39.如果你想要个和现在不同的人生，就必须去做你从未做过的事情。&lt;/p&gt;&lt;p&gt;40.现实的生活乏善可陈，梦想中的生活才更有意义，因为它超越了死亡，永不消逝。&lt;/p&gt;&lt;p&gt;41.其实梦想没有长腿，最终逃跑的只有你自己。&lt;/p&gt;&lt;p&gt;42.当太阳光线要重新直射赤道并往南跑， 离只想躲在暖暖的被窝里的日子又近了。&lt;/p&gt;&lt;p&gt;43.人生没有白走的路，每一步都算数。&lt;/p&gt;&lt;p&gt;44.如果你想预测人们会怎么表现，只需要看他们的动机就足够了。----查理· 芒格&lt;/p&gt;&lt;p&gt;45.愿意深深地扎入生活，吮尽生活的骨髓，过得扎实，简单，把一切不属于生活的内容剔除得干净利落，把生活逼到绝处，用最基本的形式，简单，简单，再简单。———梭罗《瓦尔登湖》&lt;/p&gt;&lt;p&gt;46.同样的傲娇，同样的捉弄。这些自由的少女，这些将要长成皇后的少女，会为了爱情，到天涯海角，会跟随坏人，永不变心。&lt;/p&gt;&lt;p&gt;47.不要再做这么幼稚的事情了，我们都是成年人，我们都要学会愿赌服输&lt;/p&gt;&lt;p&gt;48.秋天的雨下的心里灰蒙蒙的 风刮的迷失了青春的方寸&lt;/p&gt;&lt;p&gt;49.缺乏善意，人们不愿意相信那些看上去美好的人，更愿意偏执地认为比自己优秀的人只不过交了好运，比自己勤奋的人只不过更功利。他们诽谤自己没有的品质，看不到他人身上的优点，欣赏不到他们发光的才华和人格。人的困境已经很多，真无需再相互添堵。跑来没事挖苦讽刺我干嘛，只记得一句：讽刺挖苦你的，都是不如你的女人和得不到你的男人。&lt;/p&gt;&lt;p&gt;50.一个年轻人，最不该掩饰的，就是对金钱对财富的渴望。我们需要它去支撑眼前的苟且，更需要它去守护我们爱的人呀。&lt;/p&gt;&lt;p&gt;51.人在最低沉的时候，总会想着消失一阵子，等着暴雨停歇，等着万里晴空。&lt;/p&gt;&lt;p&gt;52.人要在外面四处漂流，最后才能走到最深的内殿，我的眼睛向空旷处四望，最后才合上眼说：你原来住在这里。”表情表情表情我经历越多，我越想起我曾是一个婴孩，初生的孩子而已。&lt;/p&gt;&lt;p&gt;53.如果你给我的和你给别人的是一样的，那我就不要了。&lt;/p&gt;&lt;p&gt;54.因为有了因为 所以有了所以 只是什么时候才会有你&lt;/p&gt;&lt;p&gt; 55.答案很复杂，我准备用一生的时间来回答，你准备要听了吗？&lt;/p&gt;&lt;p&gt;56.我来不及认真地年轻，待明白过来时，只能选择认真地老去。&lt;/p&gt;&lt;p&gt;57.可能我只是你生命的一个过客 但你不会遇见第嗨  如果你认识从前的我，也许会原谅现在的我。&lt;/p&gt;&lt;p&gt;58.你还不来，我怎敢老去？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;59.他问我爱他值不值得其实他应该知道爱就是不问值得与不值得&lt;/p&gt;&lt;p&gt;60.不管你的条件有多差  总有一个人在爱你  不管你的条件有多好  也总有个人不爱你&lt;/p&gt;&lt;p&gt;61.譬如说我爱你 我一辈子都爱你&lt;/p&gt;&lt;p&gt;62.我永远和你在一起 我偏要和你在一起  嘻嘻&lt;/p&gt;&lt;p&gt;63.除了我的心里  你哪儿都不许去&lt;/p&gt;&lt;p&gt;64.第一次认识你  你送了我一个如果再遇见你，请你先说你好，我怕我控制不住会给你拥抱。&lt;/p&gt;&lt;p&gt;65.从喜欢上你的那一刻起，我就喜欢上你喜欢的所有。&lt;/p&gt;&lt;p&gt;66.关于你的，十有八九我都想占用。&lt;/p&gt;&lt;p&gt;67.正因为喜欢你，才不想仅仅和你做朋友。&lt;/p&gt;&lt;p&gt;68.我在梦里等花开，我在怀里等你来。&lt;/p&gt;&lt;p&gt;69.我们虽隔万里，但正因为有同一个月亮，即使从未相聚，仿佛也从未分离。&lt;/p&gt;&lt;p&gt;70.我爱你，为了你的幸福，我愿意我不想去撞南墙是因为我怕疼 但是我想撞的是你的胸膛   想见的是你的脸庞&lt;/p&gt;&lt;p&gt;71.等你老了  我也走不动了 我会列着嘴告诉你  你看 我喜欢了你一辈子&lt;/p&gt;&lt;p&gt;72.最好的爱情大概就是我崇拜你像英雄，你疼爱我像个孩子&lt;/p&gt;&lt;p&gt;73.因为我喜欢你呀，所以你看的电影都特别好看，你听的歌都特别好听，你喜欢的异性都特别丑。&lt;/p&gt;&lt;p&gt;74.如果你不能给我清晨的粥，那就请倒满我深夜的酒。&lt;/p&gt;&lt;p&gt;75.这江山如此多娇，可能都不及对我的回眸一笑。放弃一切。包括你叫做心动的见面礼。二个我&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        1.我常常想起一些人。没有想念那么黏，没有想望那么热，只是稀薄的想起。—— 黎戈 《私语书》2.你要爱荒野上的风声，胜过爱贫穷和思考。暮冬时烤雪，迟夏写长信，早春不过一棵树。 ——陈鸿宇的《途中》3.“七月在野，八月在宇，九月在户，十月蟋蟀入我床…<a href="/question/59864904/answer/607620943" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-02-25" target="_blank" href="/question/59864904/answer/607620943">编辑于 2019-02-26</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-16169077">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          12 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="0">
+                        <meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-3feccca913bfae34b029cdd9d2ec0e5e_s.jpg">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="2">
+                  <h2>
+                    <a class="question_link" href="/question/312980373/answer/607439951" target="_blank" data-id="31827811" data-za-element-name="Title">如何评价《东宫》男主李承鄞？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="140511273" data-atoken="607439951" data-collapsed="0" data-created="1551021940" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/312980373/answer/607439951">
+                    <meta itemprop="answer-id" content="140511273">
+                    <meta itemprop="answer-url-token" content="607439951">
+                    <a class="zg-anchor-hidden" name="answer-140511273"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>2070</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">2070</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$abc-34-78-98" target="_blank" href="/people/abc-34-78-98">abc</a>
+                          </span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="2070">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">2070</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="31827811" data-action="/answer/content" data-author-name="abc" data-entry-url="/question/312980373/answer/607439951">
+                      <textarea hidden class="content">
+                        &lt;p&gt;他很爱小枫是真的，但不懂小枫也是真的。&lt;/p&gt;&lt;p&gt;除去灭突厥杀顾剑这些广为人知的情节，其实原著番外中还有其他暗示。&lt;/p&gt;&lt;p&gt;最开始在西凉时，小枫有两只特别喜爱的沙鼠阿巴和阿夏，之后交给顾小五去养，但没过多久就养死了一只。小五虽然赔给小枫一只一模一样的，但她还是伤心了很久。&lt;/p&gt;&lt;p&gt;与之照应的是小雪的情节，李承鄞因为嫉妒裴照送给小枫的猫那么受小枫喜爱，亲手将它溺死在池塘里，然后又送来一只外形相似的小猫，而小枫因为小雪的死一病不起。&lt;/p&gt;&lt;p&gt;说白了李承鄞对于小枫珍视的东西一直是漫不经心的。&lt;/p&gt;&lt;p&gt;他在那场屠杀里留了她性命，却将她母族斩杀殆尽；他告诫羽林卫乱箭不可伤她，却不顾她最好的姐妹阿渡在箭雨中险些丧命；他只嫉恨顾剑对小枫一往情深便置他于死地，不念小枫视他挚友亲人；他只为铲除赵良娣，泄心中之恨便一手溺死小雪，不顾这冰冷东宫中唯这只猫咪与小枫做伴。阿巴死了，他送来一只同样滚圆的沙鼠；小雪死了他送来一只同样雪白的猫咪；突厥亡了，他带她来同样锦绣的东宫。&lt;/p&gt;&lt;p&gt;他觉得这是一样的，觉得这漫漫红尘里，只要她安好，只要她在身边便可。可他却不懂她的心早已死了千百回，再也不能挽回。&lt;/p&gt;&lt;p&gt;当她没了心跳，纵有江山万里，汝谁与共?&lt;/p&gt;&lt;hr&gt;&lt;p&gt;知乎小透明第一次有这么多赞啊超开心！感谢夸我的小可爱萌，笔芯～&lt;/p&gt;&lt;p&gt;然后呐我的回答好像引起了评论区对于李承鄞是否爱小枫的一些争论，这个我觉得大家见仁见智啦～而且我的回答确实比较偏小枫的理解角度，李承鄞自己的隐忍和痛苦我并没写粗来，所以评论区全都大骂渣男哈哈哈哈。李老五对不住辣～&lt;/p&gt;&lt;p&gt;最后放一段李承鄞后援会微博发的一段话叭：&lt;/p&gt;&lt;p&gt;小枫：他教我收余恨、免娇嗔、且自新、改性情、休恋逝水、苦海回身、早悟兰因。&lt;/p&gt;&lt;p&gt;李承鄞：我偏要起婆娑、炽艳火、自废堕、闲骨格、永葬荒墟、剜心截舌、独吞絮果。&lt;/p&gt;&lt;p&gt;兰因絮果抵不过最极端的爱离别。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        他很爱小枫是真的，但不懂小枫也是真的。除去灭突厥杀顾剑这些广为人知的情节，其实原著番外中还有其他暗示。最开始在西凉时，小枫有两只特别喜爱的沙鼠阿巴和阿夏，之后交给顾小五去养，但没过多久就养死了一只。小五虽然赔给小枫一只一模一样的，但她还是…<a href="/question/312980373/answer/607439951" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-02-24" target="_blank" href="/question/312980373/answer/607439951">编辑于 2019-03-15</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-31827811">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          106 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="3">
+                  <h2>
+                    <a class="question_link" href="/question/279804105/answer/607533135" target="_blank" data-id="24454507" data-za-element-name="Title">你被吓的最惨的一次是什么情况？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="140528242" data-atoken="607533135" data-collapsed="0" data-created="1551032578" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/279804105/answer/607533135">
+                    <meta itemprop="answer-id" content="140528242">
+                    <meta itemprop="answer-url-token" content="607533135">
+                    <a class="zg-anchor-hidden" name="answer-140528242"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3083</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">3083</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$lyn-42" target="_blank" href="/people/lyn-42">lyn</a>
+                          </span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="3083">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">3083</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="24454507" data-action="/answer/content" data-author-name="lyn" data-entry-url="/question/279804105/answer/607533135">
+                      <textarea hidden class="content">
+                        &lt;p&gt;以我亲舅舅口吻叙述&lt;/p&gt;&lt;p&gt;正在美梦中的我，隐约感到妻子急促的鼻息喷在我耳旁：老公！快醒醒！妻子的声音非常小，但是十分急迫，带着一丝颤抖。我立刻清醒了过来。&lt;/p&gt;&lt;p&gt;不用妻子解释,我已经知道她为什么有如此表现了。因为清醒的一瞬间，我就看到了。&lt;/p&gt;&lt;p&gt;在床边的半空，竟飘着一个黑影。&lt;/p&gt;&lt;p&gt;大概一米多高，黑暗中看不清是什么，只隐约看到了头的轮廓。虽然看不见脸，但是我能感觉到它在注视着我们。我本能地腾地坐了起来。手脚迅速变得冰凉，感觉耳边嗡嗡作响。是人？是鬼？正在我惊魂未定之时，它微微的动了，可能我突然起身，它也吓了一跳，缓缓后退了半步。&lt;/p&gt;&lt;p&gt;妻子紧紧抓住了我的胳膊。指甲嵌进肉里。然而我没有感觉到疼。我满脑子都是：是人还是鬼？一时之间，我不知道应该如何是好。对方也定在那里，和我默默对视。它是怕了？还是下一秒准备扑过来了？我极力睁大眼睛，想看清对方的来意。&lt;/p&gt;&lt;p&gt;眼睛渐渐适应了黑暗，我又觉得它好像不是人。应该也不是鬼，鬼是影子，它是实体。&lt;/p&gt;&lt;p&gt;飞进来了什么动物？可什么动物可以不用扇翅膀就停留在半空？判断出它是个动物以后，我心稍定，但心脏仍是突突跳个不停。如果是动物，起码会好办一点。。。&lt;/p&gt;&lt;p&gt;我让妻子在床上不要动。自己缓缓下床，轻轻将夏天盖的小薄被子扯下床。对方没什么动作。我胆子大了一点。蹑手蹑脚靠近它，猛地用被子将它罩在了里面！&lt;/p&gt;&lt;p&gt;快开灯！！我大吼！生怕黑暗中有什么变故。妻子也很敏捷，啪地打开了灯。&lt;/p&gt;&lt;p&gt;刚才黑暗中发生的一切恍若隔世。冷汗浸透的背心贴在身上。我和妻子小心地掀起了被子的一角。&lt;/p&gt;&lt;p&gt;妈的儿子什么时候把白天买的氢气球放卧室了！！&lt;/p&gt;&lt;p&gt;——————————————————————————再讲一个我高中同学的。&lt;/p&gt;&lt;p&gt;高三学校提供自习室自愿上晚自习，可以上到十点钟。东北的冬天晚上十点又黑又冷，我同学下了自习自己往家走。女生。&lt;/p&gt;&lt;p&gt;本来学校离家不远，走路十几分钟，但是同学急着回家，就走了一条更近的小路，学校位于商业区，白天很热闹，晚上人就少了，而且这条小路平时本就人很少，远离主干道。同学本就胆小，结果走到路口远远看见小路中间有一个黑影，应该是一个人在蹲着抽烟，烟头的火光一亮一暗。在空无一人的寒冷冬夜的街道上，显得万分可疑。&lt;/p&gt;&lt;p&gt;同学思忖了一下，还是决定冒险通过。她把羽绒服的帽子罩在头上，戴着口罩，是为了不让那人看出她是女生。然后走进了小路。等到离那个人有十几米的距离时，同学突然开始狂奔。这样一来让对方毫无准备，真要对她做什么也来不及，二来跑出小路，就快要到家了，前面有灯光，就安全了。本来是以防万一的做法，但没想到，同学跑过那人时，身后响起了沉重急促的脚步！那人在后面追着她，也跑了起来！同学这下真的害怕了，疯了似的奔起来，还好小路不长，很快就跑到了主干道有灯光的地方。同学略感心安，忍不住回头看了一眼追来的那个男人。结果，那个人，气喘吁吁，拄着腿，也在惊魂未定地回头看。。。。&lt;/p&gt;&lt;p&gt;原来那人本来在吸烟休息，看见我同学狂奔而来，形状惊恐，以为后面有坏人追杀，于是也跟着惊恐地跑了起来。。。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        以我亲舅舅口吻叙述正在美梦中的我，隐约感到妻子急促的鼻息喷在我耳旁：老公！快醒醒！妻子的声音非常小，但是十分急迫，带着一丝颤抖。我立刻清醒了过来。不用妻子解释,我已经知道她为什么有如此表现了。因为清醒的一瞬间，我就看到了。在床边的半空，竟…<a href="/question/279804105/answer/607533135" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-02-25" target="_blank" href="/question/279804105/answer/607533135">编辑于 2019-03-05</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-24454507">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          176 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="4">
+                  <h2>
+                    <a class="question_link" href="/question/313557476/answer/607578572" target="_blank" data-id="31955936" data-za-element-name="Title">如何评价 18-19 赛季英格兰联赛杯决赛上，切尔西门将凯帕拒绝被换下的行为？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="140536492" data-atoken="607578572" data-collapsed="0" data-created="1551053191" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="0" data-zop>
+                    <link itemprop="url" href="/question/313557476/answer/607578572">
+                    <meta itemprop="answer-id" content="140536492">
+                    <meta itemprop="answer-url-token" content="607578572">
+                    <a class="zg-anchor-hidden" name="answer-140536492"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1478</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">1478</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$ckmessi" target="_blank" href="/people/ckmessi">孤单彼岸</a>
+                          </span><span title="收藏有趣的故事/总结实用的知识/欢迎关注~ (●—●)" class="bio">收藏有趣的故事/总结实用的知识/欢迎关注…</span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="1478">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">1478</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="31955936" data-action="/answer/content" data-author-name="孤单彼岸" data-entry-url="/question/313557476/answer/607578572">
+                      <textarea hidden class="content">
+                        &lt;p&gt;&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1083273597493231616&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;凯帕拒绝被换下，萨里非常愤怒。&quot; data-poster=&quot;https://pic4.zhimg.com/v2-a79e09dcfff44b64187ec21bc404b4ef.jpg&quot; data-lens-id=&quot;1083273597493231616&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic4.zhimg.com/v2-a79e09dcfff44b64187ec21bc404b4ef.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;凯帕拒绝被换下，萨里非常愤怒。&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1083273597493231616&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;今早起来就认真关注了一下这个事件，不得不说，凯帕的表现是非常不职业、不负责任的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;从视频中可以看出，&lt;/p&gt;&lt;p&gt;凯帕一开始摇了摇手指，并且伸出大拇指，想表达的意思大概是：&lt;/p&gt;&lt;blockquote&gt;我没事，我可以坚持，不用换我。&lt;/blockquote&gt;&lt;p&gt;可是接下来看到场边依然希望换人的时候，他愤怒地扬起了上臂，大概想表达的是：&lt;/p&gt;&lt;blockquote&gt;我都说了我没事了，干嘛还要换我！&lt;/blockquote&gt;&lt;p&gt;面对队友大卫·路易斯两次的劝阻，他都强硬地把队友给怼回去了…&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;可以明显听到解说员反复地在说：&lt;/p&gt;&lt;blockquote&gt;incredible... absolutely incredible...&lt;br&gt;（难以置信…真的是难以置信…）&lt;br&gt;never seen this situation...&lt;br&gt;（从来没有见过这种场景…）&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最后，当助理裁判向场内做手势表示不换人之后，萨里异常愤怒，摔了自己的笔记，走向更衣室。&lt;/p&gt;&lt;blockquote&gt;Oh... He is walking away, he might be walking away from the stadium, and he walking away from the job.&lt;br&gt;（噢，他正在向场边走去，他可能要离开体育场，并且离开他的工作岗位…）&lt;/blockquote&gt;&lt;p&gt;可是萨里愤怒地走到门边后，理智又让他停了下来，走回了教练区。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;真的挺心疼萨里的。&lt;/p&gt;&lt;p&gt;他是一位草根教练，希望能够在豪门俱乐部有所作为。&lt;/p&gt;&lt;p&gt;然而工作从来都是不容易的。&lt;/p&gt;&lt;p&gt;他就像我们每一位普通人，工作上的不顺心让你不止一次地想要辞职。&lt;/p&gt;&lt;p&gt;这一次有点过分了，他愤怒地想要不顾一切地离开。&lt;/p&gt;&lt;p&gt;却在最后一刻因为理智和责任留了下来，坚持完成自己的份内之事。&lt;/p&gt;&lt;p&gt;勇于承担责任，勇于为老板和同事背锅。&lt;/p&gt;&lt;p&gt;这就是萨里今天凌晨的真实写照。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;挺心疼站在场边却没能上场的卡巴列罗。&lt;/p&gt;&lt;p&gt;传闻他在通往更衣室的通道内伤心地哭了。&lt;/p&gt;&lt;p&gt;这位曾经效力于曼城的老门将擅长扑点球，并且对于场上对手的习惯非常熟悉。&lt;/p&gt;&lt;p&gt;去年世界杯上，面对克罗地亚队的失误让他受到广泛的批评。&lt;/p&gt;&lt;p&gt;今天，终于有机会能够站在决赛赛场上证明自己。&lt;/p&gt;&lt;p&gt;毕竟，自己已经38岁了，在退役前能够证明自己的机会也不多了。&lt;/p&gt;&lt;p&gt;设身处地想象一下，若你是一位郁郁不得志的小职员，终于迎来了展现自己能力的时刻。&lt;/p&gt;&lt;p&gt;却因为同事的霸道，被硬生生地剥夺了这个机会。&lt;/p&gt;&lt;p&gt;这该是有多无奈。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        今早起来就认真关注了一下这个事件，不得不说，凯帕的表现是非常不职业、不负责任的。 从视频中可以看出，凯帕一开始摇了摇手指，并且伸出大拇指，想表达的意思大概是：我没事，我可以坚持，不用换我。可是接下来看到场边依然希望换人的时候，他愤怒地扬起…<a href="/question/313557476/answer/607578572" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-02-25" target="_blank" href="/question/313557476/answer/607578572">编辑于 2019-02-25</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-31955936">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          141 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="2">
+                        <meta name="disableCopyAvatar" content="https://pic2.zhimg.com/v2-cd1414a3b78aff3604711de698883e3b_s.jpg">
+                        <span class="zg-bull">&bull;</span><a href="/copyright/apply?answer=607578572" target="_blank" class="meta-item copyright">申请转载</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="explore-feed feed-item" data-offset="5">
+                  <h2>
+                    <a class="question_link" href="/question/313030088/answer/607625059" target="_blank" data-id="31838833" data-za-element-name="Title">朱一龙是怎么红起来的？</a>
+                  </h2>
+                  <div tabindex="-1" class="zm-item-answer " itemscope itemtype="http://schema.org/Answer" data-aid="140544920" data-atoken="607625059" data-collapsed="0" data-created="1551057823" data-deleted="0" data-isowner="0" data-helpful="True" data-copyable="1" data-zop>
+                    <link itemprop="url" href="/question/313030088/answer/607625059">
+                    <meta itemprop="answer-id" content="140544920">
+                    <meta itemprop="answer-url-token" content="607625059">
+                    <a class="zg-anchor-hidden" name="answer-140544920"></a>
+                    <div class="zm-item-vote">
+                      <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>275</a>
+                    </div>
+                    <div class="zm-votebar">
+                      <button class="up ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="count">275</span><span class="label sr-only">赞同</span></button>
+                      <button class="down ">
+                        <i class="icon vote-arrow"></i>
+                        <span class="label sr-only">反对</span></button>
+                    </div>
+                    <div class="answer-head">
+                      <div class="zm-item-answer-author-info">
+                        <span class="summary-wrapper"><span class="author-link-line">
+                            <a class="author-link" data-hovercard="p$t$hu-meng-47" target="_blank" href="/people/hu-meng-47">翻车鱼本鱼</a>
+                          </span></span>
+                      </div>
+                      <div class="zm-item-vote-info" data-votecount="275">
+                        <span class="voters text">
+                          <a href="#" class="more text"><span class="js-voteCount">275</span>&nbsp;人赞同</a>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="31838833" data-action="/answer/content" data-author-name="翻车鱼本鱼" data-entry-url="/question/313030088/answer/607625059">
+                      <textarea hidden class="content">
+                        &lt;p&gt;这几天在看北野武的小酒馆，北野武先生讲述自己曾经经历的时候，这样写道：“每周七天上电视，拥有多个收视率超过百分之二十的节目，从北海道到冲绳，我的大名已经无人不知无人不晓。为此，我付出了十年时间。所谓走红，就是这么一回事啊。”是啊，所谓走红，不过是在过去的十年里，一心一意专注于自己的事业，磨炼自己的演技，在实践中不断地成长，不断地学习。我看到朱一龙曾经作为北影学生上天天向上的时候，他的老师崔新琴对他的寄语是，现在台词练得好起来了。也是听说他曾经一口浓重的武汉话进的学校，但是现在听他讲话，已经是标标准准的普通话了。&lt;/p&gt;&lt;p&gt;我们常常羡慕运气好的人，羡慕那些一飞冲天的人，但其实有谁知道不鸣则已的背后是多少年的厉兵秣马，又有谁知道所谓的运气，也不过是十年如一日的默默积累，在不知道什么时候会来的机会之前，熬着准备着，才能在机遇中成为更好的自己。&lt;/p&gt;&lt;p&gt;我记得我刚刚开始觉得这个艺人还可以的时候，还是他刚刚推广肯德基的时候，那时候的他拍红黑堡的视频，可爱但是缺了那么点味道。但是不到一个月的时间里，巴黎欧莱雅视频一出来，那种神态的把控度和对品牌内核的诠释感，在他自己的节奏里自如地运转着。多么强大的学习能力。&lt;/p&gt;&lt;p&gt;大家都是普通人，知道世事艰难，也了解生活不易，也正因为这样，才更加地向往这样的人生，向往这样不放弃，始终往前的决心。会在钦佩他积极学习的时候，想着我也要更加努力才会在职场里有更广阔的天地，会在欢喜他各种作品的时候，想着我也要不断提高自己才能够成为更好的自己。&lt;/p&gt;&lt;p&gt;千山万重，不离不弃，为了理想。&lt;/p&gt;
+                      </textarea>
+                      <div class="zh-summary summary clearfix">
+                        这几天在看北野武的小酒馆，北野武先生讲述自己曾经经历的时候，这样写道：“每周七天上电视，拥有多个收视率超过百分之二十的节目，从北海道到冲绳，我的大名已经无人不知无人不晓。为此，我付出了十年时间。所谓走红，就是这么一回事啊。”是啊，所谓走红…<a href="/question/313030088/answer/607625059" class="toggle-expand">显示全部</a>
+                      </div>
+                      <p class="visible-expanded">
+                        <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/313030088/answer/607625059">发布于 2019-02-25</a>
+                      </p>
+                    </div>
+                    <div class="zm-item-meta answer-actions clearfix js-contentActions">
+                      <div class="zm-meta-panel">
+                        <a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-31838833">
+                          <i class="z-icon-follow"></i>
+                          关注问题</a>
+                        <a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+                          <i class="z-icon-comment"></i>
+                          14 条评论</a>
+                        <a href="#" class="meta-item zu-autohide js-thank" data-thanked="false">
+                          <i class="z-icon-thank"></i>
+                          感谢</a>
+                        <a href="#" class="meta-item zu-autohide js-share">
+                          <i class="z-icon-share"></i>
+                          分享</a>
+                        <a href="#" class="meta-item zu-autohide js-collect">
+                          <i class="z-icon-collect"></i>
+                          收藏</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a><span class="zg-bull zu-autohide">&bull;</span><a href="#" class="meta-item zu-autohide js-report">举报</a>
+                        <meta name="copyrightStatus" content="1">
+                        <meta name="disableCopyAvatar" content="">
+                        <span class="zg-bull">&bull;</span><a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">作者保留权利</a>
+                        <button class="meta-item item-collapse js-collapse">
+                          <i class="z-icon-fold"></i>
+                          收起</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zu-main-sidebar" data-za-module="RightSideBar">
+        <!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden>
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+        <div class="zm-side-section">
+          <div class="DownloadApp">
+            <button class="DownloadApp-button"><span class="sprite-global-icon-qrcode"></span>下载知乎 App</button>
+          </div>
+        </div>
+        <div class="shameimaru-placeholder" data-loc="explore_up" data-params='{}'></div>
+        <div class="zm-side-section explore-side-section explore-side-section-roundtable">
+          <div class="zm-side-section-inner">
+            <div class="section-title">
+              <a href="/roundtable" class="zg-link-gray zg-right" data-za-c="view_roundtable" data-za-a="visit_roundtable_home" data-za-l="explore_sidebar_trending_roundtable_more">更多圆桌 &raquo;</a>
+              <h3>
+                热门圆桌
+              </h3>
+            </div>
+            <ul class="list hot-roundtables">
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/roundtable/keyan"><img src="https://pic3.zhimg.com/v2-4940b89a0af2f74b1d2364076293e427_m.jpg" alt="Path" class="avatar 40" /></a>
+                <div class="content">
+                  <span class="status zg-right zg-gray-normal">还有 2 天开始</span><a href="/roundtable/keyan" target="_blank" data-hovercard="r$t$keyan">科研有点难</a>
+                  <div class="meta">
+                    <span>1068 人关注</span><span class="zg-bull">&bull;</span><span>7 个问题</span>
+                  </div>
+                </div>
+              </li>
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/roundtable/apple2019"><img src="https://pic1.zhimg.com/v2-4f75ec39b8268f60e3b2e8718395a6c6_m.jpg" alt="Path" class="avatar 40" /></a>
+                <div class="content">
+                  <span class="status zg-right zg-gray-normal">还有 2 天开始</span><a href="/roundtable/apple2019" target="_blank" data-hovercard="r$t$apple2019">直击苹果发布会</a>
+                  <div class="meta">
+                    <span>1333 人关注</span><span class="zg-bull">&bull;</span><span>3 个问题</span>
+                  </div>
+                </div>
+              </li>
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/roundtable/tiaocao"><img src="https://pic4.zhimg.com/v2-168b8d73a3efd2a6cc99f9c7bcb67646_m.jpg" alt="Path" class="avatar 40" /></a>
+                <div class="content">
+                  <span class="status zg-right zg-gray-normal">还有 16 天结束</span><a href="/roundtable/tiaocao" target="_blank" data-hovercard="r$t$tiaocao">知招职场 | 跳槽不跳坑</a>
+                  <div class="meta">
+                    <span>4910 人关注</span><span class="zg-bull">&bull;</span><span>24 个问题</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="zm-side-section explore-side-section">
+          <div class="zm-side-section-inner">
+            <div class="section-title">
+              <a href="/topics" class="zg-link-gray zg-right">更多话题 &raquo;</a>
+              <h3>
+                热门话题
+              </h3>
+            </div>
+            <ul class="list hot-topics">
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/topic/19588303" data-hovercard="t$b$19588303"><img src="https://pic4.zhimg.com/ebec2d3ac_m.jpg" alt="节气" class="avatar 40" /></a>
+                <div class="content">
+                  <a href="/topic/19588303" target="_blank" data-hovercard="t$b$19588303">节气</a>
+                  <div class="meta">
+                    <span>5202 人关注</span>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <a class="question_link" href="/question/276070691" target="_blank" data-id="23624635" data-za-element-name="Title">国外没有二十四节气，则各国如何区分季节并按时从事农业生产？</a>
+                </div>
+              </li>
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/topic/19865724" data-hovercard="t$b$19865724"><img src="https://pic3.zhimg.com/v2-296f1ee32553f13bb898880477871660_m.jpg" alt="神器" class="avatar 40" /></a>
+                <div class="content">
+                  <a href="/topic/19865724" target="_blank" data-hovercard="t$b$19865724">神器</a>
+                  <div class="meta">
+                    <span>25948 人关注</span>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <a class="question_link" href="/question/20747512" target="_blank" data-id="479450" data-za-element-name="Title">哪个 App 让你觉得「原来手机还可以这么用」？原因是什么？</a>
+                </div>
+              </li>
+              <li class="clearfix">
+                <a target="_blank" class="avatar-link" href="/topic/19559450" data-hovercard="t$b$19559450"><img src="https://pic2.zhimg.com/d3dd87a0feae0a3db82973157eee89c0_m.jpg" alt="机器学习" class="avatar 40" /></a>
+                <div class="content">
+                  <a href="/topic/19559450" target="_blank" data-hovercard="t$b$19559450">机器学习</a>
+                  <div class="meta">
+                    <span>1011759 人关注</span>
+                  </div>
+                </div>
+                <div class="bottom"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="zm-side-section explore-side-section">
+          <div class="zm-side-section-inner">
+            <div class="section-title">
+              <a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+              <h3>
+                热门收藏
+              </h3>
+            </div>
+            <ul class="list hot-favlists">
+              <li>
+                <div class="content">
+                  <a href="/collection/137714956" target="_blank">不要看，忘设私密。</a>
+                  <div class="meta">
+                    <span>396 人关注</span><span class="zg-bull">&bull;</span><span>390 条内容</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <a href="/collection/26458188" target="_blank">捞出来的精华知识和经验</a>
+                  <div class="meta">
+                    <span>16805 人关注</span><span class="zg-bull">&bull;</span><span>1262 条内容</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <a href="/collection/21827129" target="_blank">都是好东西</a>
+                  <div class="meta">
+                    <span>4838 人关注</span><span class="zg-bull">&bull;</span><span>27039 条内容</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <a href="/collection/34154535" target="_blank">不能错过</a>
+                  <div class="meta">
+                    <span>283 人关注</span><span class="zg-bull">&bull;</span><span>107 条内容</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <a href="/collection/25830554" target="_blank">吃很重要</a>
+                  <div class="meta">
+                    <span>305 人关注</span><span class="zg-bull">&bull;</span><span>38 条内容</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+        <div id="zh-footer" class="zh-footer">
+          <div class="content zg-wrap clearfix">
+            <ul>
+              <li>
+                <a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a>
+              </li>
+              <li>
+                <a href="/app" target="_blank">移动应用</a>
+              </li>
+              <li>
+                <a href="/careers">加入知乎</a>
+              </li>
+              <li>
+                <a href="/terms" target="_blank">知乎协议</a>
+              </li>
+              <li>
+                <a href="/jubao" target="_blank">举报投诉</a>
+              </li>
+              <li>
+                <a href="/term/privacy" target="_blank">隐私政策</a>
+              </li>
+              <li>
+                <a href="/contact">联系我们</a>
+              </li>
+            </ul>
+            <span class="copy">&copy; 2019 知乎</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/json" class="json-inline" data-name="guiders2">
+{}
+    </script>
+    <script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+    </script>
+    <script type="text/json" class="json-inline" data-name="current_user">
+["","","","-1","",0,0]
+    </script>
+    <script type="text/json" class="json-inline" data-name="front_web_config">
+{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}
+    </script>
+    <script type="text/json" class="json-inline" data-name="user_status">
+[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]
+    </script>
+    <script type="text/json" class="json-inline" data-name="env">
+["zhihu.com","comet.zhihu.com",false,null,false,false]
+    </script>
+    <script type="text/json" class="json-inline" data-name="permissions">
+[]
+    </script>
+    <script type="text/json" class="json-inline" data-name="ga_vars">
+{"user_created":0,"now":1553330025000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}
+    </script>
+    <script type="text/json" class="json-inline" data-name="ra-urls">
+{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}
+    </script>
+    <script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+    <script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+    <script src="https://static.zhihu.com/static/revved/-/js/closure/common.fde4efd7.js"></script>
+    <script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+    <script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+    <meta name="entry" content="ZH.entryExplore" data-module-id="page-main">
+    <script type="text/zscript" znonce="ffe38f2dfe14411faac90fadce090d59"></script>
+    <input type="hidden" name="_xsrf" value="4b54624336555a63674e746c454c3451343776467154664e78756f3548517755"/>
+  </body>
+</html>
