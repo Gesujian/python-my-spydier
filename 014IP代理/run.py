@@ -3,7 +3,6 @@ from api import app
 from getter import Getter
 from tester import Tester
 from multiprocessing import Process
-from multiprocessing import Pool
 
 TESTER_CYCLE = 30
 GETTER_CYCLE = 30
